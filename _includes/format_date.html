@@ -1,0 +1,29 @@
+{% assign date = include.date | date: "%s" %}
+
+{% assign currentDate = 'now' | date: "%s"  %}
+{% assign secondsPerDay = 86400  %}
+{% assign daysSincePost = currentDate | minus: date | divided_by:secondsPerDay %}
+
+{% if daysSincePost == 0  %}
+  today
+{% elsif daysSincePost < 7 %}
+  {{ daysSincePost }} day{% if daysSincePost > 1 %}s{% endif %} ago
+{% elsif daysSincePost < 28 %}
+  {% assign weeksSincePost = daysSincePost  | divided_by:7 %}
+  {{ weeksSincePost }} week{% if weeksSincePost > 1 %}s{% endif %} ago
+{% else %}
+  {% assign days = date | date: "%-d" %}
+  {% case days %}
+    {% when "1" or "21" or "31" %}{{ days }}<sup>st</sup>
+    {% when "2" or "22" %}{{ days }}<sup>nd</sup>
+    {% when "3" or "23" %}{{ days }}<sup>rd</sup>
+    {% else %}{{ days }}<sup>th</sup>
+  {% endcase %}
+  {% assign year = date | date: "%Y" %}
+  {% assign currentYear = 'now' | date: "%Y" %}
+  {% if year == currentYear  %}
+    {{ date | date: "%b" }}
+  {% else %}
+    {{ date | date: "%b %Y" }}
+  {% endif %}
+{% endif %}
