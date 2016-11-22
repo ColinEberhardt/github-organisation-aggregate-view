@@ -393,7 +393,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2016-11-17T15:49:54Z",
-    "updated_at": "2016-11-18T15:13:12Z",
+    "updated_at": "2016-11-22T06:24:48Z",
     "closed_at": null,
     "pull_request": {
       "url": "https://api.github.com/repos/d3fc/d3fc-annotation/pulls/21",
@@ -401,7 +401,7 @@
       "diff_url": "https://github.com/d3fc/d3fc-annotation/pull/21.diff",
       "patch_url": "https://github.com/d3fc/d3fc-annotation/pull/21.patch"
     },
-    "body": "BREAKING CHANGE: The gridline API now reflects d3-axis in that the scales are provided via the 'constructor' and cannot be mutated.\r\n\r\nfixes #20\r\n\r\nI've also removed the extra containers for x / y gridlines"
+    "body": "fixes #20\r\n"
   },
   {
     "url": "https://api.github.com/repos/d3fc/d3fc-chart/issues/9",
@@ -479,9 +479,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 3,
+    "comments": 4,
     "created_at": "2016-11-16T08:58:53Z",
-    "updated_at": "2016-11-16T09:29:55Z",
+    "updated_at": "2016-11-22T06:24:07Z",
     "closed_at": null,
     "body": "Should we prevent redefinition of variables? see: https://github.com/d3fc/d3fc-series/pull/33/files#r88192484"
   },
