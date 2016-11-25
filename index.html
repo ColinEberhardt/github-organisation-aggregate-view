@@ -26,18 +26,23 @@ layout: default
       </div>
       <!-- Issue title column -->
       <div class="float-left col-9 p-3 lh-condensed">
-        <a href="{{issue.repository_url}}" class="muted-link h4 pr-1">
-          {% assign bits = issue.repository_url | split:"/" %}
+        {% assign bits = issue.repository_url | split:"/" %}
+        <a href="https://github.com/{{bits[4]}}/{{bits[5]}}" class="muted-link h4 pr-1">
           {{bits[4]}}/{{bits[5]}}
         </a>
-        <a href="{{issue.url}}" class="Box-row-link h4 js-navigation-open">{{issue.title}}</a>
-        <!-- <span class="labels">
-          <a href="/d3fc/d3fc-label-layout/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement" aria-label="View all enhancement issues" class="label v-align-text-top labelstyle-84b6eb linked-labelstyle-84b6eb tooltipped tooltipped-n" style="background-color: #84b6eb; color: #1c2733;">enhancement</a>
-        </span> -->
+        {% assign bits = issue.url | split:"/" %}
+        <a href="https://github.com/{{bits[4]}}/{{bits[5]}}/{{bits[6]}}/{{bits[7]}}" class="Box-row-link h4 js-navigation-open">{{issue.title}}</a>
+        <span class="labels">
+          {% for label in issue.labels %}
+            <a class="label v-align-text-top labelstyle-84b6eb linked-labelstyle-84b6eb"
+            style="background-color: #{{label.color}}; color: #1c2733;">{{label.name}}</a>
+          {% endfor %}
+        </span>
         <div class="mt-1 text-small text-gray">
           <span class="mr-2 opened-by">
             #{{issue.number}} opened <relative-time>{% include format_date.html date=issue.created_at %}</relative-time> by
-            <a href="{{issue.user.url}}">{{issue.user.login}}</a>
+            {% assign bits = issue.user.url | split:"/" %}
+            <a href="https://github.com/{{bits[4]}}">{{issue.user.login}}</a>
           </span>
         </div>
       </div>
