@@ -83,9 +83,9 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2016-11-28T10:10:22Z",
-    "updated_at": "2016-11-28T10:52:29Z",
+    "updated_at": "2016-11-28T12:58:23Z",
     "closed_at": null,
-    "body": "- [ ] Documentation tab should not be highlighted on the 404 page\r\n- [ ] Cartesian should be capitalised\r\n- [ ] Broken codepen link on https://beta.d3fc.io/examples/streaming/index.html due to lack of jQuery\r\n- [ ] The 'raise issue' link styling on the 404 page is not correct\r\n- [ ] Add links to 'edit documentation' to make it easier for people to contribute small fixes."
+    "body": "- [x] Documentation tab should not be highlighted on the 404 page\r\n- [ ] Cartesian should be capitalised\r\n- [x] Broken codepen link on https://beta.d3fc.io/examples/streaming/index.html due to lack of jQuery\r\n- [ ] The 'raise issue' link styling on the 404 page is not correct\r\n- [ ] Add links to 'edit documentation' to make it easier for people to contribute small fixes."
   },
   {
     "url": "https://api.github.com/repos/d3fc/d3fc/issues/110",
