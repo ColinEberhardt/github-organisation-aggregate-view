@@ -1,5 +1,54 @@
 [
   {
+    "url": "https://api.github.com/repos/d3fc/d3fc/issues/110",
+    "repository_url": "https://api.github.com/repos/d3fc/d3fc",
+    "labels_url": "https://api.github.com/repos/d3fc/d3fc/issues/110/labels{/name}",
+    "comments_url": "https://api.github.com/repos/d3fc/d3fc/issues/110/comments",
+    "events_url": "https://api.github.com/repos/d3fc/d3fc/issues/110/events",
+    "html_url": "https://github.com/d3fc/d3fc/issues/110",
+    "id": 191930849,
+    "number": 110,
+    "title": "Look at ggplot",
+    "user": {
+      "login": "ColinEberhardt",
+      "id": 1098110,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1098110?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ColinEberhardt",
+      "html_url": "https://github.com/ColinEberhardt",
+      "followers_url": "https://api.github.com/users/ColinEberhardt/followers",
+      "following_url": "https://api.github.com/users/ColinEberhardt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ColinEberhardt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ColinEberhardt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ColinEberhardt/subscriptions",
+      "organizations_url": "https://api.github.com/users/ColinEberhardt/orgs",
+      "repos_url": "https://api.github.com/users/ColinEberhardt/repos",
+      "events_url": "https://api.github.com/users/ColinEberhardt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ColinEberhardt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 411927292,
+        "url": "https://api.github.com/repos/d3fc/d3fc/labels/enhancement",
+        "name": "enhancement",
+        "color": "84b6eb",
+        "default": true
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2016-11-28T06:43:27Z",
+    "updated_at": "2016-11-28T06:43:27Z",
+    "closed_at": null,
+    "body": "ggplot has a very similar looking API to d3fc. There might be some useful ideas for components here:\r\n\r\nhttp://docs.ggplot2.org/current/"
+  },
+  {
     "url": "https://api.github.com/repos/d3fc/d3fc/issues/109",
     "repository_url": "https://api.github.com/repos/d3fc/d3fc",
     "labels_url": "https://api.github.com/repos/d3fc/d3fc/issues/109/labels{/name}",
