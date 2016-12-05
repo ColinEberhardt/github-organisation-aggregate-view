@@ -603,61 +603,6 @@
     "body": "_From @jleft on December 4, 2016 21:47_\n\nhttps://beta.d3fc.io/ does not load fully in IE (IE11 tested); the charts on the homepage do not load and the d3fc bundle throws the error:\r\n\r\n```\r\nSCRIPT5009: 'Symbol' is undefined\r\nd3fc.min.js (1,3228)\r\n...\r\n```\r\n\r\nRelated to https://github.com/d3fc/d3fc-scripts/issues/40, as it looks like adding [babel-polyfill](https://babeljs.io/docs/usage/polyfill/) to the d3fc bundle or the site would fix this.\r\n\n\n_Copied from original issue: d3fc/d3fc-temp#125_"
   },
   {
-    "url": "https://api.github.com/repos/d3fc/d3fc-technical-indicator/issues/46",
-    "repository_url": "https://api.github.com/repos/d3fc/d3fc-technical-indicator",
-    "labels_url": "https://api.github.com/repos/d3fc/d3fc-technical-indicator/issues/46/labels{/name}",
-    "comments_url": "https://api.github.com/repos/d3fc/d3fc-technical-indicator/issues/46/comments",
-    "events_url": "https://api.github.com/repos/d3fc/d3fc-technical-indicator/issues/46/events",
-    "html_url": "https://github.com/d3fc/d3fc-technical-indicator/pull/46",
-    "id": 193461875,
-    "number": 46,
-    "title": "Update d3fc to version 12.0.0 🚀",
-    "user": {
-      "login": "greenkeeperio-bot",
-      "id": 14790466,
-      "avatar_url": "https://avatars.githubusercontent.com/u/14790466?v=3",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/greenkeeperio-bot",
-      "html_url": "https://github.com/greenkeeperio-bot",
-      "followers_url": "https://api.github.com/users/greenkeeperio-bot/followers",
-      "following_url": "https://api.github.com/users/greenkeeperio-bot/following{/other_user}",
-      "gists_url": "https://api.github.com/users/greenkeeperio-bot/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/greenkeeperio-bot/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/greenkeeperio-bot/subscriptions",
-      "organizations_url": "https://api.github.com/users/greenkeeperio-bot/orgs",
-      "repos_url": "https://api.github.com/users/greenkeeperio-bot/repos",
-      "events_url": "https://api.github.com/users/greenkeeperio-bot/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/greenkeeperio-bot/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "labels": [
-      {
-        "id": 408815063,
-        "url": "https://api.github.com/repos/d3fc/d3fc-technical-indicator/labels/greenkeeper",
-        "name": "greenkeeper",
-        "color": "ededed",
-        "default": false
-      }
-    ],
-    "state": "open",
-    "locked": false,
-    "assignee": null,
-    "assignees": [],
-    "milestone": null,
-    "comments": 0,
-    "created_at": "2016-12-05T10:34:19Z",
-    "updated_at": "2016-12-05T10:34:20Z",
-    "closed_at": null,
-    "pull_request": {
-      "url": "https://api.github.com/repos/d3fc/d3fc-technical-indicator/pulls/46",
-      "html_url": "https://github.com/d3fc/d3fc-technical-indicator/pull/46",
-      "diff_url": "https://github.com/d3fc/d3fc-technical-indicator/pull/46.diff",
-      "patch_url": "https://github.com/d3fc/d3fc-technical-indicator/pull/46.patch"
-    },
-    "body": "Hello lovely humans,\n\n[d3fc](https://www.npmjs.com/package/d3fc) just published its new version 12.0.0.\n\n<table>\n  <tr>\n    <th align=left>\n      State\n    </th>\n    <td>\n      Update :rocket:\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Dependency\n    </td>\n    <td>\n      d3fc\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      New version\n    </td>\n    <td>\n      12.0.0\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Type\n    </td>\n    <td>\n      devDependency\n    </td>\n  </tr>\n</table>\n\nThis version is **not covered** by your **current version range**.\n\nWithout accepting this pull request your project will work just like it did before. There might be a bunch of new features, fixes and perf improvements that the maintainers worked on for you though.\n\nI recommend you look into these changes and try to get onto the latest version of d3fc.\nGiven that you have a decent test suite, a passing build is a strong indicator that you can take advantage of these changes by merging the proposed change into your project. Otherwise this branch is a great starting point for you to work on the update.\n\n\nDo you have any ideas how I could improve these pull requests? Did I report anything you think isn’t right?\nAre you unsure about how things are supposed to work?\n\nThere is a collection of [frequently asked questions](https://greenkeeper.io/faq.html) and while I’m just a bot, there is a group of people who are happy to teach me new things. [Let them know](https://github.com/greenkeeperio/greenkeeper/issues/new).\n\nGood luck with your project :sparkles:\n\nYou rock!\n\n:palm_tree:\n\n---\nThis pull request was created by [greenkeeper.io](https://greenkeeper.io/).\n\n<sub>Tired of seeing this sponsor message? :zap: `greenkeeper upgrade`</sub>"
-  },
-  {
     "url": "https://api.github.com/repos/d3fc/d3fc-financial-feed/issues/17",
     "repository_url": "https://api.github.com/repos/d3fc/d3fc-financial-feed",
     "labels_url": "https://api.github.com/repos/d3fc/d3fc-financial-feed/issues/17/labels{/name}",
