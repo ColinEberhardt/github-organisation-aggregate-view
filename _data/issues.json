@@ -36,7 +36,7 @@
     "milestone": null,
     "comments": 0,
     "created_at": "2016-12-11T14:12:54Z",
-    "updated_at": "2016-12-11T14:14:46Z",
+    "updated_at": "2016-12-11T15:13:34Z",
     "closed_at": null,
     "pull_request": {
       "url": "https://api.github.com/repos/d3fc/d3fc-financial-feed/pulls/19",
@@ -44,7 +44,7 @@
       "diff_url": "https://github.com/d3fc/d3fc-financial-feed/pull/19.diff",
       "patch_url": "https://github.com/d3fc/d3fc-financial-feed/pull/19.patch"
     },
-    "body": "BREAKING CHANGE: Coinbase Exchange has been [rebranded to GDAX](https://blog.coinbase.com/coinbase-exchange-is-now-gdax-adds-ether-trading-a82cc628aa79#.sy8kxyghb). As part of the rebranding of Coinbase Exchange to GDAX, API endpoints have changed. The old `*.exchange.coinbase.com` endpoints have been discontinued as of Dec 6th, 2016.\r\n\r\nFixes #18 "
+    "body": "BREAKING CHANGE: `feedCoinbase` has been renamed to `feedGdax`. Coinbase Exchange has been [rebranded to GDAX](https://blog.coinbase.com/coinbase-exchange-is-now-gdax-adds-ether-trading-a82cc628aa79#.sy8kxyghb). As part of the rebranding of Coinbase Exchange to GDAX, API endpoints have changed. The old `*.exchange.coinbase.com` endpoints have been discontinued as of Dec 6th, 2016.\r\n\r\nFixes #18 "
   },
   {
     "url": "https://api.github.com/repos/d3fc/d3fc-financial-feed/issues/18",
