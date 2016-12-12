@@ -1,5 +1,60 @@
 [
   {
+    "url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/46",
+    "repository_url": "https://api.github.com/repos/d3fc/d3fc-scripts",
+    "labels_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/46/labels{/name}",
+    "comments_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/46/comments",
+    "events_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/46/events",
+    "html_url": "https://github.com/d3fc/d3fc-scripts/pull/46",
+    "id": 195037986,
+    "number": 46,
+    "title": "Update rollup to version 0.37.0 🚀",
+    "user": {
+      "login": "greenkeeperio-bot",
+      "id": 14790466,
+      "avatar_url": "https://avatars.githubusercontent.com/u/14790466?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeperio-bot",
+      "html_url": "https://github.com/greenkeeperio-bot",
+      "followers_url": "https://api.github.com/users/greenkeeperio-bot/followers",
+      "following_url": "https://api.github.com/users/greenkeeperio-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeperio-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeperio-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeperio-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeperio-bot/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeperio-bot/repos",
+      "events_url": "https://api.github.com/users/greenkeeperio-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeperio-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 422808519,
+        "url": "https://api.github.com/repos/d3fc/d3fc-scripts/labels/greenkeeper",
+        "name": "greenkeeper",
+        "color": "ededed",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2016-12-12T17:38:40Z",
+    "updated_at": "2016-12-12T17:38:40Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/d3fc/d3fc-scripts/pulls/46",
+      "html_url": "https://github.com/d3fc/d3fc-scripts/pull/46",
+      "diff_url": "https://github.com/d3fc/d3fc-scripts/pull/46.diff",
+      "patch_url": "https://github.com/d3fc/d3fc-scripts/pull/46.patch"
+    },
+    "body": "Hello lovely humans,\n\n[rollup](https://www.npmjs.com/package/rollup) just published its new version 0.37.0.\n\n<table>\n  <tr>\n    <th align=left>\n      State\n    </th>\n    <td>\n      Update :rocket:\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Dependency\n    </td>\n    <td>\n      rollup\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      New version\n    </td>\n    <td>\n      0.37.0\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Type\n    </td>\n    <td>\n      dependency\n    </td>\n  </tr>\n</table>\n\nThis version is **not covered** by your **current version range**.\n\nWithout accepting this pull request your project will work just like it did before. There might be a bunch of new features, fixes and perf improvements that the maintainers worked on for you though.\n\nI recommend you look into these changes and try to get onto the latest version of rollup.\nGiven that you have a decent test suite, a passing build is a strong indicator that you can take advantage of these changes by merging the proposed change into your project. Otherwise this branch is a great starting point for you to work on the update.\n\n\nDo you have any ideas how I could improve these pull requests? Did I report anything you think isn’t right?\nAre you unsure about how things are supposed to work?\n\nThere is a collection of [frequently asked questions](https://greenkeeper.io/faq.html) and while I’m just a bot, there is a group of people who are happy to teach me new things. [Let them know](https://github.com/greenkeeperio/greenkeeper/issues/new).\n\nGood luck with your project :sparkles:\n\nYou rock!\n\n:palm_tree:\n\n---\nThe new version differs by 77 commits .\n\n- [`fcf3928`](https://github.com/rollup/rollup/commit/fcf39281f8655b9bc6f8322edad18ed173b9b523) <code>-> v0.37.0</code>\n- [`dbbb234`](https://github.com/rollup/rollup/commit/dbbb234df2841867f52804d272f299af7ae39377) <code>Merge pull request #1038 from rollup/gh-1028</code>\n- [`8120b50`](https://github.com/rollup/rollup/commit/8120b509c94213226332fcc05749a122d94bce62) <code>Merge pull request #1046 from rollup/gh-1045</code>\n- [`a492798`](https://github.com/rollup/rollup/commit/a4927986bd872daa013bb2e0d030d3b7fe1a526b) <code>deduplicate</code>\n- [`666deef`](https://github.com/rollup/rollup/commit/666deef0394d5b256a0861292d1e7c00ddc7f08e) <code>Merge branch 'legacy-quote-reserved-properties' into chge-master</code>\n- [`75442ef`](https://github.com/rollup/rollup/commit/75442ef67e28d546057962e599e076be9f4b8670) <code>update tests</code>\n- [`81bf060`](https://github.com/rollup/rollup/commit/81bf0609697f0e9b1838738fb9bd1a5d2a460bb3) <code>quote reserved properties in legacy mode</code>\n- [`051cd97`](https://github.com/rollup/rollup/commit/051cd9736cc76be6f0910a18981a1d36cbbe9eaa) <code>update legacy tests</code>\n- [`209fe7c`](https://github.com/rollup/rollup/commit/209fe7c6946a64b87f52a1c2f93b5e566aa29f5e) <code>apply https://github.com/rollup/rollup/pull/1062#issuecomment-255536598</code>\n- [`1559aab`](https://github.com/rollup/rollup/commit/1559aaba22a90a1f92f8e83ae4b9788b14c99409) <code>Merge branch '1032' of https://github.com/kzc/rollup into kzc-1032</code>\n- [`9515730`](https://github.com/rollup/rollup/commit/951573066fc5f943cf1ea0c2ee9367e249636f14) <code>Merge pull request #1068 from futurist/master</code>\n- [`07eb86c`](https://github.com/rollup/rollup/commit/07eb86c56a024ae8cb80dde49447d366b10f1fa5) <code>Merge pull request #1069 from IvanSanchez/no-legacy-getter</code>\n- [`8466b4c`](https://github.com/rollup/rollup/commit/8466b4ce56415f27687842b3177138929efee62c) <code>Merge pull request #1138 from kzc/fix_parens</code>\n- [`ac04b83`](https://github.com/rollup/rollup/commit/ac04b8336247436ed462c8169a19947fa753105f) <code>fix paren issues with tree shaking (#1101 #1128)</code>\n- [`fca14db`](https://github.com/rollup/rollup/commit/fca14dbab102a9fa8efc7249287e2145583712ea) <code>-> v0.36.4</code>\n\n\nThere are 77 commits in total. See the [full diff](https://github.com/rollup/rollup/compare/152afb9732975188c7f4bf716c143da549afd432...fcf39281f8655b9bc6f8322edad18ed173b9b523).\n\n---\nThis pull request was created by [greenkeeper.io](https://greenkeeper.io/).\n\n<sub>Tired of seeing this sponsor message? :zap: `greenkeeper upgrade`</sub>"
+  },
+  {
     "url": "https://api.github.com/repos/d3fc/d3fc/issues/1040",
     "repository_url": "https://api.github.com/repos/d3fc/d3fc",
     "labels_url": "https://api.github.com/repos/d3fc/d3fc/issues/1040/labels{/name}",
