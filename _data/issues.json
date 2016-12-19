@@ -1,5 +1,60 @@
 [
   {
+    "url": "https://api.github.com/repos/d3fc/d3fc/issues/1042",
+    "repository_url": "https://api.github.com/repos/d3fc/d3fc",
+    "labels_url": "https://api.github.com/repos/d3fc/d3fc/issues/1042/labels{/name}",
+    "comments_url": "https://api.github.com/repos/d3fc/d3fc/issues/1042/comments",
+    "events_url": "https://api.github.com/repos/d3fc/d3fc/issues/1042/events",
+    "html_url": "https://github.com/d3fc/d3fc/pull/1042",
+    "id": 196349526,
+    "number": 1042,
+    "title": "Update node-sass to version 4.1.0 🚀",
+    "user": {
+      "login": "greenkeeperio-bot",
+      "id": 14790466,
+      "avatar_url": "https://avatars.githubusercontent.com/u/14790466?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeperio-bot",
+      "html_url": "https://github.com/greenkeeperio-bot",
+      "followers_url": "https://api.github.com/users/greenkeeperio-bot/followers",
+      "following_url": "https://api.github.com/users/greenkeeperio-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeperio-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeperio-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeperio-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeperio-bot/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeperio-bot/repos",
+      "events_url": "https://api.github.com/users/greenkeeperio-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeperio-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 498242509,
+        "url": "https://api.github.com/repos/d3fc/d3fc/labels/greenkeeper",
+        "name": "greenkeeper",
+        "color": "ededed",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2016-12-19T07:40:50Z",
+    "updated_at": "2016-12-19T07:40:51Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/d3fc/d3fc/pulls/1042",
+      "html_url": "https://github.com/d3fc/d3fc/pull/1042",
+      "diff_url": "https://github.com/d3fc/d3fc/pull/1042.diff",
+      "patch_url": "https://github.com/d3fc/d3fc/pull/1042.patch"
+    },
+    "body": "Hello lovely humans,\n\n[node-sass](https://www.npmjs.com/package/node-sass) just published its new version 4.1.0.\n\n<table>\n  <tr>\n    <th align=left>\n      State\n    </th>\n    <td>\n      Update :rocket:\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Dependency\n    </td>\n    <td>\n      node-sass\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      New version\n    </td>\n    <td>\n      4.1.0\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Type\n    </td>\n    <td>\n      devDependency\n    </td>\n  </tr>\n</table>\n\nThis version is **not covered** by your **current version range**.\n\nWithout accepting this pull request your project will work just like it did before. There might be a bunch of new features, fixes and perf improvements that the maintainers worked on for you though.\n\nI recommend you look into these changes and try to get onto the latest version of node-sass.\nGiven that you have a decent test suite, a passing build is a strong indicator that you can take advantage of these changes by merging the proposed change into your project. Otherwise this branch is a great starting point for you to work on the update.\n\n\nDo you have any ideas how I could improve these pull requests? Did I report anything you think isn’t right?\nAre you unsure about how things are supposed to work?\n\nThere is a collection of [frequently asked questions](https://greenkeeper.io/faq.html) and while I’m just a bot, there is a group of people who are happy to teach me new things. [Let them know](https://github.com/greenkeeperio/greenkeeper/issues/new).\n\nGood luck with your project :sparkles:\n\nYou rock!\n\n:palm_tree:\n\n---\n[GitHub Release](https://github.com/sass/node-sass/releases/tag/v4.1.0)\n\n<h2>Alpine Linux support</h2>\n\n<p>The Linux binaries we supply are not compatible with the way Node is compiled on Alpine Linux. This means that although the installation will succeed, it takes much longer because the native code needs to be compiled locally.</p>\n\n<p>Thanks to the hard work of <a href=\"https://urls.greenkeeper.io/lox\" class=\"user-mention\">@lox</a> and <a href=\"https://urls.greenkeeper.io/S-YOU\" class=\"user-mention\">@S-YOU</a> we're now able to supply Alpine Linux compatible binaries.</p>\n\n<p>Read more about what was involved in <a href=\"https://urls.greenkeeper.io/sass/node-sass/issues/1589\" class=\"issue-link js-issue-link\" data-url=\"https://github.com/sass/node-sass/issues/1589\" data-id=\"159822768\" data-error-text=\"Failed to load issue title\" data-permission-text=\"Issue title is private\">#1589</a>.</p>\n\n<h3>Fixes</h3>\n\n<ul>\n<li>Replace <code>lodash.isarray</code> with <code>Array.isArray</code> (<a href=\"https://urls.greenkeeper.io/daltones\" class=\"user-mention\">@daltones</a>, <a href=\"https://urls.greenkeeper.io/sass/node-sass/issues/1829\" class=\"issue-link js-issue-link\" data-url=\"https://github.com/sass/node-sass/issues/1829\" data-id=\"194775196\" data-error-text=\"Failed to load issue title\" data-permission-text=\"Issue title is private\">#1829</a>)</li>\n<li>CLI prematurely exiting before the output stream is fully flushed (<a href=\"https://urls.greenkeeper.io/ysugimoto\" class=\"user-mention\">@ysugimoto</a>, <a href=\"https://urls.greenkeeper.io/sass/node-sass/issues/1823\" class=\"issue-link js-issue-link\" data-url=\"https://github.com/sass/node-sass/issues/1823\" data-id=\"194041603\" data-error-text=\"Failed to load issue title\" data-permission-text=\"Issue title is private\">#1823</a>)</li>\n</ul>\n\n<hr>\n\n<h4>Supported Environments</h4>\n\n<table>\n<thead>\n<tr>\n<th>OS</th>\n<th>Architecture</th>\n<th>Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Windows</td>\n<td>x86 &amp; x64</td>\n<td>0.10, 0.12, 1, 2, 3, 4, 5, 6,7</td>\n</tr>\n<tr>\n<td>OSX</td>\n<td>x64</td>\n<td>0.10, 0.12, 1, 2, 3, 4, 5, 6, 7</td>\n</tr>\n<tr>\n<td>Linux</td>\n<td>x86 &amp; x64</td>\n<td>0.10, 0.12, 1, 2, 3, 4, 5, 6, 7</td>\n</tr>\n<tr>\n<td>Alpine</td>\n<td>x64</td>\n<td>4, 6, 7</td>\n</tr>\n</tbody>\n</table>\n\n<p>*Linux support refers to Ubuntu, Debian, and CentOS 5</p>\n\n---\nThe new version differs by 15 commits .\n\n- [`396ad28`](https://github.com/sass/node-sass/commit/396ad288c5911c892e51ea976f86d67901f07a1a) <code>4.1.0</code>\n- [`5521bb6`](https://github.com/sass/node-sass/commit/5521bb6b870d0275d7e0e090ea6d7d9e71e17264) <code>Add a platform variant for installing a musl binary (#1836)</code>\n- [`3c17b03`](https://github.com/sass/node-sass/commit/3c17b033294da0bf234b4228f0bfd9d5f2a1d19a) <code>Fix output buffer is imcomplete working in child_process (#1834)</code>\n- [`a5fca4f`](https://github.com/sass/node-sass/commit/a5fca4f0459c4c3fa63ba7fd8e6e2de16957314e) <code>Merge pull request #1830 from daltones/no-lodash.isarray</code>\n- [`d66eaee`](https://github.com/sass/node-sass/commit/d66eaee71b204cc77091e80440b7efcbd9f5dbe6) <code>Drop dependency lodash.isarray</code>\n- [`8b46b39`](https://github.com/sass/node-sass/commit/8b46b3926dfa2501cad043a708fc4c7a964a0fea) <code>4.0.0</code>\n- [`c1b05b3`](https://github.com/sass/node-sass/commit/c1b05b39d8f0bf7d0522df53ef85196a9f7849e4) <code>Merge pull request #1800 from sass/feat/libsass-3.4.0.1</code>\n- [`dd946fd`](https://github.com/sass/node-sass/commit/dd946fdb6838c72f4652741105282b7747b5e5f2) <code>Update sourcemap test fixtures to match new LibSass behaviour</code>\n- [`79e86f3`](https://github.com/sass/node-sass/commit/79e86f32ce3661569748164d26e2f2667a79699a) <code>Tweak spec.js to support :only_on and multiple :todo engines</code>\n- [`6532189`](https://github.com/sass/node-sass/commit/65321899b750b87c1b280b013ed9e6b098d1ccbf) <code>Bump LibSass to 3.4.0</code>\n- [`1bb893f`](https://github.com/sass/node-sass/commit/1bb893f386fc9751e317fa8b96f4dbd3c2623534) <code>3.13.1</code>\n- [`b527d91`](https://github.com/sass/node-sass/commit/b527d913793cc477f633b03108e5c881bf12c0f2) <code>Removed top-level return statement from cli (#1827)</code>\n- [`4491ab4`](https://github.com/sass/node-sass/commit/4491ab436ee217038460a46f14c15c0368dda456) <code>Check options to be an object (#1825)</code>\n- [`a7e6bea`](https://github.com/sass/node-sass/commit/a7e6beadfb48deb7473eb259258a0997a6190016) <code>Bump sass-spec@^3.3.6-5</code>\n- [`dc92c18`](https://github.com/sass/node-sass/commit/dc92c18e1dffd4acbab69e76c4bcda238f52da27) <code>Update sourceComments documentation in README.md (#1820)</code>\n\nSee the [full diff](https://github.com/sass/node-sass/compare/2e7f37084a1b30e93b142674cfed1fcd05c79e82...396ad288c5911c892e51ea976f86d67901f07a1a).\n\n---\nThis pull request was created by [greenkeeper.io](https://greenkeeper.io/).\n\n<sub>Tired of seeing this sponsor message? :zap: `greenkeeper upgrade`</sub>"
+  },
+  {
     "url": "https://api.github.com/repos/d3fc/d3fc/issues/1041",
     "repository_url": "https://api.github.com/repos/d3fc/d3fc",
     "labels_url": "https://api.github.com/repos/d3fc/d3fc/issues/1041/labels{/name}",
