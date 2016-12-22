@@ -1,5 +1,60 @@
 [
   {
+    "url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/50",
+    "repository_url": "https://api.github.com/repos/d3fc/d3fc-scripts",
+    "labels_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/50/labels{/name}",
+    "comments_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/50/comments",
+    "events_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/50/events",
+    "html_url": "https://github.com/d3fc/d3fc-scripts/pull/50",
+    "id": 197070467,
+    "number": 50,
+    "title": "Update rollup to version 0.38.0 🚀",
+    "user": {
+      "login": "greenkeeperio-bot",
+      "id": 14790466,
+      "avatar_url": "https://avatars.githubusercontent.com/u/14790466?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeperio-bot",
+      "html_url": "https://github.com/greenkeeperio-bot",
+      "followers_url": "https://api.github.com/users/greenkeeperio-bot/followers",
+      "following_url": "https://api.github.com/users/greenkeeperio-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeperio-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeperio-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeperio-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeperio-bot/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeperio-bot/repos",
+      "events_url": "https://api.github.com/users/greenkeeperio-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeperio-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 422808519,
+        "url": "https://api.github.com/repos/d3fc/d3fc-scripts/labels/greenkeeper",
+        "name": "greenkeeper",
+        "color": "ededed",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2016-12-22T01:00:05Z",
+    "updated_at": "2016-12-22T01:00:06Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/d3fc/d3fc-scripts/pulls/50",
+      "html_url": "https://github.com/d3fc/d3fc-scripts/pull/50",
+      "diff_url": "https://github.com/d3fc/d3fc-scripts/pull/50.diff",
+      "patch_url": "https://github.com/d3fc/d3fc-scripts/pull/50.patch"
+    },
+    "body": "Hello lovely humans,\n\n[rollup](https://www.npmjs.com/package/rollup) just published its new version 0.38.0.\n\n<table>\n  <tr>\n    <th align=left>\n      State\n    </th>\n    <td>\n      Update :rocket:\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Dependency\n    </td>\n    <td>\n      rollup\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      New version\n    </td>\n    <td>\n      0.38.0\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Type\n    </td>\n    <td>\n      dependency\n    </td>\n  </tr>\n</table>\n\nThis version is **not covered** by your **current version range**.\n\nWithout accepting this pull request your project will work just like it did before. There might be a bunch of new features, fixes and perf improvements that the maintainers worked on for you though.\n\nI recommend you look into these changes and try to get onto the latest version of rollup.\nGiven that you have a decent test suite, a passing build is a strong indicator that you can take advantage of these changes by merging the proposed change into your project. Otherwise this branch is a great starting point for you to work on the update.\n\n\nDo you have any ideas how I could improve these pull requests? Did I report anything you think isn’t right?\nAre you unsure about how things are supposed to work?\n\nThere is a collection of [frequently asked questions](https://greenkeeper.io/faq.html) and while I’m just a bot, there is a group of people who are happy to teach me new things. [Let them know](https://github.com/greenkeeperio/greenkeeper/issues/new).\n\nGood luck with your project :sparkles:\n\nYou rock!\n\n:palm_tree:\n\n---\nThe new version differs by 13 commits .\n\n- [`79c4007`](https://github.com/rollup/rollup/commit/79c40075588d894170e371c5eba59d1e3681ce92) <code>-> v0.38.0</code>\n- [`8819519`](https://github.com/rollup/rollup/commit/88195198f8551d851de565d60ae6459f79367e1d) <code>add test to guard against #984 regression</code>\n- [`0409388`](https://github.com/rollup/rollup/commit/040938850c77b582a4fc80cd7448f5d553e66686) <code>Merge pull request #1168 from rollup/gh-1083</code>\n- [`553abd9`](https://github.com/rollup/rollup/commit/553abd9873ffb100818614f7d9db1cac27acb0ac) <code>bind function expression ids to the child scope (#1083)</code>\n- [`e550b3f`](https://github.com/rollup/rollup/commit/e550b3f16594648fb705bb669ed220bb693d8c50) <code>Merge pull request #1167 from rollup/gh-1078</code>\n- [`21a5d0d`](https://github.com/rollup/rollup/commit/21a5d0d0622ca9a1ea722479162939beff8c9a3f) <code>alright i give up. bye node 0.12</code>\n- [`5430096`](https://github.com/rollup/rollup/commit/5430096c2643b0c8b8f73049d93d85c0fccdff3b) <code>downgrade eslint to a version that supports node 0.12</code>\n- [`fe16d37`](https://github.com/rollup/rollup/commit/fe16d37f8af7774854ca24f6beeba351a6eef968) <code>update some deps to get tests to pass</code>\n- [`1c354ba`](https://github.com/rollup/rollup/commit/1c354babebd7eb851323669e0a0d7247a5083d6d) <code>deshadow destructured parameters with assignments (#1078)</code>\n- [`e1c49cf`](https://github.com/rollup/rollup/commit/e1c49cf34f6b548b5a644ab0b70459d02ad48d2a) <code>Merge pull request #1166 from rollup/gh-1078</code>\n- [`e05bf77`](https://github.com/rollup/rollup/commit/e05bf77efc35888260bb56640f26de2adf628cb8) <code>fix behaviour of export { foo as default } (#1078)</code>\n- [`f2742e4`](https://github.com/rollup/rollup/commit/f2742e477cf163fe29e67611f943e6acd239ca4c) <code>Merge pull request #1165 from rollup/gh-988</code>\n- [`1ca90bd`](https://github.com/rollup/rollup/commit/1ca90bd374cc723694a24e0365cb061b1fcab6c0) <code>prevent false positives for sourcemapping url comments with newlines (#988)</code>\n\nSee the [full diff](https://github.com/rollup/rollup/compare/37a6869ef967e0bed8fd20dfc70f86dfdb993804...79c40075588d894170e371c5eba59d1e3681ce92).\n\n---\nThis pull request was created by [greenkeeper.io](https://greenkeeper.io/).\n\n<sub>Tired of seeing this sponsor message? :zap: `greenkeeper upgrade`</sub>"
+  },
+  {
     "url": "https://api.github.com/repos/d3fc/d3fc/issues/1043",
     "repository_url": "https://api.github.com/repos/d3fc/d3fc",
     "labels_url": "https://api.github.com/repos/d3fc/d3fc/issues/1043/labels{/name}",
