@@ -1,5 +1,54 @@
 [
   {
+    "url": "https://api.github.com/repos/d3fc/d3fc/issues/1044",
+    "repository_url": "https://api.github.com/repos/d3fc/d3fc",
+    "labels_url": "https://api.github.com/repos/d3fc/d3fc/issues/1044/labels{/name}",
+    "comments_url": "https://api.github.com/repos/d3fc/d3fc/issues/1044/comments",
+    "events_url": "https://api.github.com/repos/d3fc/d3fc/issues/1044/events",
+    "html_url": "https://github.com/d3fc/d3fc/issues/1044",
+    "id": 197100354,
+    "number": 1044,
+    "title": "Add medium articles to the documentation",
+    "user": {
+      "login": "ColinEberhardt",
+      "id": 1098110,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1098110?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ColinEberhardt",
+      "html_url": "https://github.com/ColinEberhardt",
+      "followers_url": "https://api.github.com/users/ColinEberhardt/followers",
+      "following_url": "https://api.github.com/users/ColinEberhardt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ColinEberhardt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ColinEberhardt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ColinEberhardt/subscriptions",
+      "organizations_url": "https://api.github.com/users/ColinEberhardt/orgs",
+      "repos_url": "https://api.github.com/users/ColinEberhardt/repos",
+      "events_url": "https://api.github.com/users/ColinEberhardt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ColinEberhardt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 494722016,
+        "url": "https://api.github.com/repos/d3fc/d3fc/labels/site",
+        "name": "site",
+        "color": "ededed",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2016-12-22T05:57:09Z",
+    "updated_at": "2016-12-22T05:57:09Z",
+    "closed_at": null,
+    "body": "https://medium.com/@ColinEberhardt/unboxing-d3-ec3d71196852#.pte3p73hx\r\nhttps://medium.com/@ColinEberhardt/extending-d3-with-higher-order-components-d58cd40b7efd#.6p9j75k8j"
+  },
+  {
     "url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/50",
     "repository_url": "https://api.github.com/repos/d3fc/d3fc-scripts",
     "labels_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/50/labels{/name}",
@@ -207,9 +256,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 2,
+    "comments": 3,
     "created_at": "2016-12-16T06:29:45Z",
-    "updated_at": "2016-12-19T17:30:28Z",
+    "updated_at": "2016-12-22T05:57:42Z",
     "closed_at": null,
     "body": "I've received an email asking how to integrate the D3v4 brush. As well as reply directly, I've copied the question here for anyone else who might be interested."
   },
@@ -1120,55 +1169,6 @@
     "updated_at": "2016-11-23T08:14:49Z",
     "closed_at": null,
     "body": "In the d3fc/d3fc project we need a different travis.yml file, however the there checks are still quite relevant. see: https://github.com/d3fc/d3fc/pull/75"
-  },
-  {
-    "url": "https://api.github.com/repos/d3fc/d3fc/issues/1019",
-    "repository_url": "https://api.github.com/repos/d3fc/d3fc",
-    "labels_url": "https://api.github.com/repos/d3fc/d3fc/issues/1019/labels{/name}",
-    "comments_url": "https://api.github.com/repos/d3fc/d3fc/issues/1019/comments",
-    "events_url": "https://api.github.com/repos/d3fc/d3fc/issues/1019/events",
-    "html_url": "https://github.com/d3fc/d3fc/issues/1019",
-    "id": 190524746,
-    "number": 1019,
-    "title": "Complete documentation?",
-    "user": {
-      "login": "JTorresConsulta",
-      "id": 22349981,
-      "avatar_url": "https://avatars.githubusercontent.com/u/22349981?v=3",
-      "gravatar_id": "",
-      "url": "https://api.github.com/users/JTorresConsulta",
-      "html_url": "https://github.com/JTorresConsulta",
-      "followers_url": "https://api.github.com/users/JTorresConsulta/followers",
-      "following_url": "https://api.github.com/users/JTorresConsulta/following{/other_user}",
-      "gists_url": "https://api.github.com/users/JTorresConsulta/gists{/gist_id}",
-      "starred_url": "https://api.github.com/users/JTorresConsulta/starred{/owner}{/repo}",
-      "subscriptions_url": "https://api.github.com/users/JTorresConsulta/subscriptions",
-      "organizations_url": "https://api.github.com/users/JTorresConsulta/orgs",
-      "repos_url": "https://api.github.com/users/JTorresConsulta/repos",
-      "events_url": "https://api.github.com/users/JTorresConsulta/events{/privacy}",
-      "received_events_url": "https://api.github.com/users/JTorresConsulta/received_events",
-      "type": "User",
-      "site_admin": false
-    },
-    "labels": [
-      {
-        "id": 135225170,
-        "url": "https://api.github.com/repos/d3fc/d3fc/labels/question",
-        "name": "question",
-        "color": "cc317c",
-        "default": true
-      }
-    ],
-    "state": "open",
-    "locked": false,
-    "assignee": null,
-    "assignees": [],
-    "milestone": null,
-    "comments": 1,
-    "created_at": "2016-11-19T22:30:54Z",
-    "updated_at": "2016-12-05T14:11:22Z",
-    "closed_at": null,
-    "body": "Hi Scott. thank you very much for your work.\r\n\r\nHave you a complete documentation of all functions with simple examples?\r\nI dont understand some functions of your complete example scripts.\r\n\r\nThank you ! : )"
   },
   {
     "url": "https://api.github.com/repos/d3fc/d3fc-chart/issues/10",
