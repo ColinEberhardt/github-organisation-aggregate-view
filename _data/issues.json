@@ -144,9 +144,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2016-12-29T23:54:41Z",
-    "updated_at": "2016-12-30T00:35:55Z",
+    "updated_at": "2016-12-31T10:27:37Z",
     "closed_at": null,
     "body": "Poloniex.com is the largest purely-cryptocurrency exchange by far and supports the exchange of many coins.  I've started working on supporting its platform at https://github.com/sneurlax/d3fc-financial-feed/tree/poloniex\r\n\r\nHopefully I can patch it together myself and issue a pull request soon.  There have only been a few hiccups...  I'm trying to get my BitFlux fork to work with this financial-feed fork but haven't had luck (currently waiting for ``npm install`` to finish so I can do a bit more testing)"
   },
