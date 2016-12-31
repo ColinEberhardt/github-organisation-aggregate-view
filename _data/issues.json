@@ -1,5 +1,60 @@
 [
   {
+    "url": "https://api.github.com/repos/d3fc/d3fc/issues/1047",
+    "repository_url": "https://api.github.com/repos/d3fc/d3fc",
+    "labels_url": "https://api.github.com/repos/d3fc/d3fc/issues/1047/labels{/name}",
+    "comments_url": "https://api.github.com/repos/d3fc/d3fc/issues/1047/comments",
+    "events_url": "https://api.github.com/repos/d3fc/d3fc/issues/1047/events",
+    "html_url": "https://github.com/d3fc/d3fc/pull/1047",
+    "id": 198237048,
+    "number": 1047,
+    "title": "Update npm-run-all to version 4.0.0 🚀",
+    "user": {
+      "login": "greenkeeperio-bot",
+      "id": 14790466,
+      "avatar_url": "https://avatars.githubusercontent.com/u/14790466?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeperio-bot",
+      "html_url": "https://github.com/greenkeeperio-bot",
+      "followers_url": "https://api.github.com/users/greenkeeperio-bot/followers",
+      "following_url": "https://api.github.com/users/greenkeeperio-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeperio-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeperio-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeperio-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeperio-bot/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeperio-bot/repos",
+      "events_url": "https://api.github.com/users/greenkeeperio-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeperio-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 498242509,
+        "url": "https://api.github.com/repos/d3fc/d3fc/labels/greenkeeper",
+        "name": "greenkeeper",
+        "color": "ededed",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2016-12-31T15:50:39Z",
+    "updated_at": "2016-12-31T15:50:39Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/d3fc/d3fc/pulls/1047",
+      "html_url": "https://github.com/d3fc/d3fc/pull/1047",
+      "diff_url": "https://github.com/d3fc/d3fc/pull/1047.diff",
+      "patch_url": "https://github.com/d3fc/d3fc/pull/1047.patch"
+    },
+    "body": "Hello lovely humans,\n\n[npm-run-all](https://www.npmjs.com/package/npm-run-all) just published its new version 4.0.0.\n\n<table>\n  <tr>\n    <th align=left>\n      State\n    </th>\n    <td>\n      Update :rocket:\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Dependency\n    </td>\n    <td>\n      npm-run-all\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      New version\n    </td>\n    <td>\n      4.0.0\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Type\n    </td>\n    <td>\n      devDependency\n    </td>\n  </tr>\n</table>\n\nThis version is **not covered** by your **current version range**.\n\nWithout accepting this pull request your project will work just like it did before. There might be a bunch of new features, fixes and perf improvements that the maintainers worked on for you though.\n\nI recommend you look into these changes and try to get onto the latest version of npm-run-all.\nGiven that you have a decent test suite, a passing build is a strong indicator that you can take advantage of these changes by merging the proposed change into your project. Otherwise this branch is a great starting point for you to work on the update.\n\n\nDo you have any ideas how I could improve these pull requests? Did I report anything you think isn’t right?\nAre you unsure about how things are supposed to work?\n\nThere is a collection of [frequently asked questions](https://greenkeeper.io/faq.html) and while I’m just a bot, there is a group of people who are happy to teach me new things. [Let them know](https://github.com/greenkeeperio/greenkeeper/issues/new).\n\nGood luck with your project :sparkles:\n\nYou rock!\n\n:palm_tree:\n\n---\nThe new version differs by 21 commits .\n\n- [`5e88fb7`](https://github.com/mysticatea/npm-run-all/commit/5e88fb79c8ba0626575b98bb9160f583e0453f2a) <code>4.0.0</code>\n- [`12b2b87`](https://github.com/mysticatea/npm-run-all/commit/12b2b87cf473e4b11e27da64b4c27d9f2db8d7e6) <code>Breaking: use NPM_EXECPATH to run tasks</code>\n- [`07bfec5`](https://github.com/mysticatea/npm-run-all/commit/07bfec5fe2e0ce47e8eb0c85efab94675540c945) <code>Chore: remove unused setting in .eslintrc.json</code>\n- [`02e9767`](https://github.com/mysticatea/npm-run-all/commit/02e97675e3852aefd758d40fef366dc3be5b7aad) <code>New: --max-parallel option</code>\n- [`58f9d4c`](https://github.com/mysticatea/npm-run-all/commit/58f9d4c9585c396e44e48ef88b63db37386b5073) <code>Chore: remove read-pkg-up</code>\n- [`49528e4`](https://github.com/mysticatea/npm-run-all/commit/49528e46f2642882fd9f25de564f7a7ca0b4e03e) <code>Chore: update dependencies</code>\n- [`023a3c3`](https://github.com/mysticatea/npm-run-all/commit/023a3c3f0fc4ac664a9ff59a0b47410abcd942dc) <code>Fix: the leaks of modifications to remove babel</code>\n- [`26a951e`](https://github.com/mysticatea/npm-run-all/commit/26a951e0ff1775488028b35e71298cb83f38964e) <code>Chore: upgrade nyc and mocha</code>\n- [`c8c440d`](https://github.com/mysticatea/npm-run-all/commit/c8c440d2f3ebd8f8ea66ee520d8a07bedd086b1e) <code>Chore: stop using babel</code>\n- [`993df33`](https://github.com/mysticatea/npm-run-all/commit/993df33766bcbff424a305c7e6fb41e0e7ed6a83) <code>Chore: remove polyfills</code>\n- [`3f933c3`](https://github.com/mysticatea/npm-run-all/commit/3f933c326567da1ba1530fbb5d9047fc31d325c9) <code>Chore: upgrade eslint and eslint-config</code>\n- [`53d4f2a`](https://github.com/mysticatea/npm-run-all/commit/53d4f2ad2006731cdfc6d5b91845ff4286d146f9) <code>Breaking: drop supports for Node 0.x</code>\n- [`fed85bf`](https://github.com/mysticatea/npm-run-all/commit/fed85bfc602a46e84c4e8bc8e28389ba7276b834) <code>Chore: rename .eslintrc → .eslintrc.json</code>\n- [`910d78d`](https://github.com/mysticatea/npm-run-all/commit/910d78d83e7e152bc71b7700f757deef14e13c84) <code>Merge pull request #75 from nulltask/feature/colorize (fixes #73)</code>\n- [`d7821df`](https://github.com/mysticatea/npm-run-all/commit/d7821df56f264fcf291c26238e252667a1be623c) <code>Change labels to be displayed in individual colors for each task</code>\n\n\nThere are 21 commits in total. See the [full diff](https://github.com/mysticatea/npm-run-all/compare/3038a53f50eae9ed03666eb2d582c96511058081...5e88fb79c8ba0626575b98bb9160f583e0453f2a).\n\n---\nThis pull request was created by [greenkeeper.io](https://greenkeeper.io/).\n\n<sub>Tired of seeing this sponsor message? :zap: `greenkeeper upgrade`</sub>"
+  },
+  {
     "url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/56",
     "repository_url": "https://api.github.com/repos/d3fc/d3fc-scripts",
     "labels_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/56/labels{/name}",
