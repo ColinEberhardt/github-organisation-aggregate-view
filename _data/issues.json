@@ -1,5 +1,60 @@
 [
   {
+    "url": "https://api.github.com/repos/d3fc/d3fc/issues/1048",
+    "repository_url": "https://api.github.com/repos/d3fc/d3fc",
+    "labels_url": "https://api.github.com/repos/d3fc/d3fc/issues/1048/labels{/name}",
+    "comments_url": "https://api.github.com/repos/d3fc/d3fc/issues/1048/comments",
+    "events_url": "https://api.github.com/repos/d3fc/d3fc/issues/1048/events",
+    "html_url": "https://github.com/d3fc/d3fc/pull/1048",
+    "id": 199460234,
+    "number": 1048,
+    "title": "Update node-sass to version 4.2.0 🚀",
+    "user": {
+      "login": "greenkeeperio-bot",
+      "id": 14790466,
+      "avatar_url": "https://avatars.githubusercontent.com/u/14790466?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeperio-bot",
+      "html_url": "https://github.com/greenkeeperio-bot",
+      "followers_url": "https://api.github.com/users/greenkeeperio-bot/followers",
+      "following_url": "https://api.github.com/users/greenkeeperio-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeperio-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeperio-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeperio-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeperio-bot/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeperio-bot/repos",
+      "events_url": "https://api.github.com/users/greenkeeperio-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeperio-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 498242509,
+        "url": "https://api.github.com/repos/d3fc/d3fc/labels/greenkeeper",
+        "name": "greenkeeper",
+        "color": "ededed",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-01-09T00:41:43Z",
+    "updated_at": "2017-01-09T00:41:43Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/d3fc/d3fc/pulls/1048",
+      "html_url": "https://github.com/d3fc/d3fc/pull/1048",
+      "diff_url": "https://github.com/d3fc/d3fc/pull/1048.diff",
+      "patch_url": "https://github.com/d3fc/d3fc/pull/1048.patch"
+    },
+    "body": "Hello lovely humans,\n\n[node-sass](https://www.npmjs.com/package/node-sass) just published its new version 4.2.0.\n\n<table>\n  <tr>\n    <th align=left>\n      State\n    </th>\n    <td>\n      Update :rocket:\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Dependency\n    </td>\n    <td>\n      node-sass\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      New version\n    </td>\n    <td>\n      4.2.0\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Type\n    </td>\n    <td>\n      devDependency\n    </td>\n  </tr>\n</table>\n\nThis version is **not covered** by your **current version range**.\n\nWithout accepting this pull request your project will work just like it did before. There might be a bunch of new features, fixes and perf improvements that the maintainers worked on for you though.\n\nI recommend you look into these changes and try to get onto the latest version of node-sass.\nGiven that you have a decent test suite, a passing build is a strong indicator that you can take advantage of these changes by merging the proposed change into your project. Otherwise this branch is a great starting point for you to work on the update.\n\n\nDo you have any ideas how I could improve these pull requests? Did I report anything you think isn’t right?\nAre you unsure about how things are supposed to work?\n\nThere is a collection of [frequently asked questions](https://greenkeeper.io/faq.html) and while I’m just a bot, there is a group of people who are happy to teach me new things. [Let them know](https://github.com/greenkeeperio/greenkeeper/issues/new).\n\nGood luck with your project :sparkles:\n\nYou rock!\n\n:palm_tree:\n\n---\n[GitHub Release](https://github.com/sass/node-sass/releases/tag/v4.2.0)\n\n<h2>LibSass to 3.4.3</h2>\n\n<p>LibSass has been bumped from 3.4.0 to 3.4.3. This update brings significant memory usage improvements. Check the LibSass changelogs for more information.</p>\n\n<ul>\n<li><a href=\"https://urls.greenkeeper.io/sass/libsass/releases/tag/3.4.1\">3.4.1</a></li>\n<li><a href=\"https://urls.greenkeeper.io/sass/libsass/releases/tag/3.4.2\">3.4.2</a></li>\n<li><a href=\"https://urls.greenkeeper.io/sass/libsass/releases/tag/3.4.3\">3.4.3</a></li>\n</ul>\n\n<h2>Fixes</h2>\n\n<ul>\n<li>Increasing compile times in watcher (<a href=\"https://urls.greenkeeper.io/sass/node-sass/issues/1669\" class=\"issue-link js-issue-link\" data-url=\"https://github.com/sass/node-sass/issues/1669\" data-id=\"171611767\" data-error-text=\"Failed to load issue title\" data-permission-text=\"Issue title is private\">#1669</a>)</li>\n<li>Stack depth counter leaking between processes (<a href=\"https://urls.greenkeeper.io/sass/node-sass/issues/1669\" class=\"issue-link js-issue-link\" data-url=\"https://github.com/sass/node-sass/issues/1669\" data-id=\"171611767\" data-error-text=\"Failed to load issue title\" data-permission-text=\"Issue title is private\">#1669</a>)</li>\n</ul>\n\n---\nThe new version differs by 19 commits .\n\n- [`1e76d99`](https://github.com/sass/node-sass/commit/1e76d99164a112a8895c668af795594a35dcdca6) <code>4.2.0</code>\n- [`46266f1`](https://github.com/sass/node-sass/commit/46266f14794fc472b287873b503a13de38d79fc3) <code>LibSass 3.4.3 (#1848)</code>\n- [`5c83bb7`](https://github.com/sass/node-sass/commit/5c83bb72e22afb26d5c70cabbd3b40d0e029c52a) <code>4.1.1</code>\n- [`8a8ec65`](https://github.com/sass/node-sass/commit/8a8ec65006d4fe086586f9092904548edb3a4000) <code>Lock a specific version of sass-spec</code>\n- [`396ad28`](https://github.com/sass/node-sass/commit/396ad288c5911c892e51ea976f86d67901f07a1a) <code>4.1.0</code>\n- [`5521bb6`](https://github.com/sass/node-sass/commit/5521bb6b870d0275d7e0e090ea6d7d9e71e17264) <code>Add a platform variant for installing a musl binary (#1836)</code>\n- [`3c17b03`](https://github.com/sass/node-sass/commit/3c17b033294da0bf234b4228f0bfd9d5f2a1d19a) <code>Fix output buffer is imcomplete working in child_process (#1834)</code>\n- [`a5fca4f`](https://github.com/sass/node-sass/commit/a5fca4f0459c4c3fa63ba7fd8e6e2de16957314e) <code>Merge pull request #1830 from daltones/no-lodash.isarray</code>\n- [`d66eaee`](https://github.com/sass/node-sass/commit/d66eaee71b204cc77091e80440b7efcbd9f5dbe6) <code>Drop dependency lodash.isarray</code>\n- [`8b46b39`](https://github.com/sass/node-sass/commit/8b46b3926dfa2501cad043a708fc4c7a964a0fea) <code>4.0.0</code>\n- [`c1b05b3`](https://github.com/sass/node-sass/commit/c1b05b39d8f0bf7d0522df53ef85196a9f7849e4) <code>Merge pull request #1800 from sass/feat/libsass-3.4.0.1</code>\n- [`dd946fd`](https://github.com/sass/node-sass/commit/dd946fdb6838c72f4652741105282b7747b5e5f2) <code>Update sourcemap test fixtures to match new LibSass behaviour</code>\n- [`79e86f3`](https://github.com/sass/node-sass/commit/79e86f32ce3661569748164d26e2f2667a79699a) <code>Tweak spec.js to support :only_on and multiple :todo engines</code>\n- [`6532189`](https://github.com/sass/node-sass/commit/65321899b750b87c1b280b013ed9e6b098d1ccbf) <code>Bump LibSass to 3.4.0</code>\n- [`1bb893f`](https://github.com/sass/node-sass/commit/1bb893f386fc9751e317fa8b96f4dbd3c2623534) <code>3.13.1</code>\n\n\nThere are 19 commits in total. See the [full diff](https://github.com/sass/node-sass/compare/2e7f37084a1b30e93b142674cfed1fcd05c79e82...1e76d99164a112a8895c668af795594a35dcdca6).\n\n---\nThis pull request was created by [greenkeeper.io](https://greenkeeper.io/).\n\n<sub>Tired of seeing this sponsor message? :zap: `greenkeeper upgrade`</sub>"
+  },
+  {
     "url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/63",
     "repository_url": "https://api.github.com/repos/d3fc/d3fc-scripts",
     "labels_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/63/labels{/name}",
