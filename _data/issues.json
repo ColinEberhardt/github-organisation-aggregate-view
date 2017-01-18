@@ -34,9 +34,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 2,
     "created_at": "2017-01-18T07:51:09Z",
-    "updated_at": "2017-01-18T08:14:31Z",
+    "updated_at": "2017-01-18T10:02:45Z",
     "closed_at": null,
     "body": "See the following:\r\n\r\nhttps://github.com/d3fc/d3fc-sample/issues/34\r\n\r\nI wonder whether our code snippets should be in both old, browser-ready syntax, as well as the one we have with arrows and imports.\r\n\r\n(I can't remember which JS version is which these days!)"
   },
