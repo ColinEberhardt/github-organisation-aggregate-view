@@ -8,7 +8,7 @@
     "html_url": "https://github.com/d3fc/d3fc-sample/issues/35",
     "id": 202313549,
     "number": 35,
-    "title": "largestTriangleThreeBucket() - Cannot read property '0' of undefined",
+    "title": "largestTriangleThreeBucket() - does not support array accessors",
     "user": {
       "login": "envision",
       "id": 1790545,
@@ -28,15 +28,23 @@
       "type": "User",
       "site_admin": false
     },
-    "labels": [],
+    "labels": [
+      {
+        "id": 343133541,
+        "url": "https://api.github.com/repos/d3fc/d3fc-sample/labels/bug",
+        "name": "bug",
+        "color": "fc2929",
+        "default": true
+      }
+    ],
     "state": "open",
     "locked": false,
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 1,
+    "comments": 3,
     "created_at": "2017-01-21T12:40:21Z",
-    "updated_at": "2017-01-21T13:07:11Z",
+    "updated_at": "2017-01-23T08:56:37Z",
     "closed_at": null,
     "body": "I'm debugging an error, do you have idea what this might be about?\r\n\r\nThis dataset has 873100 datapoints and bucketSize is set to 1147.\r\n\r\n    TypeError: Cannot read property '0' of undefined\r\n        at https://project.dev/pkg/d3fc-sample/d3fc-sample-3.0.3.js:156:42\r\n        at Array.map (native)\r\n        at largestTriangleThreeBucket (https://project.dev/pkg/d3fc-sample/d3fc-sample-3.0.3.js:137:42)\r\n        at Object.draw (https://project.dev/chart/sensordata.js:57:46)\r\n        at https://project.dev/sensordataCtrl.js:31:36\r\n        at https://project.dev/pkg/angular/js/angular-1.4.11.min.js:121:20\r\n        at n.$eval (https://project.dev/pkg/angular/js/angular-1.4.11.min.js:135:219)\r\n        at n.$digest (https://project.dev/pkg/angular/js/angular-1.4.11.min.js:132:306)\r\n        at n.$apply (https://project.dev/pkg/angular/js/angular-1.4.11.min.js:135:513)\r\n        at g (https://project.dev/pkg/angular/js/angular-1.4.11.min.js:88:374)"
   },
