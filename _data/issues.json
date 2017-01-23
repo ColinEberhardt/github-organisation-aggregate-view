@@ -98,7 +98,7 @@
     "html_url": "https://github.com/d3fc/d3fc-sample/issues/34",
     "id": 201414546,
     "number": 34,
-    "title": "Examples needed, also in JS and not just ES",
+    "title": "More representative examples needed",
     "user": {
       "login": "envision",
       "id": 1790545,
@@ -124,9 +124,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 3,
+    "comments": 4,
     "created_at": "2017-01-17T21:46:11Z",
-    "updated_at": "2017-01-21T13:32:51Z",
+    "updated_at": "2017-01-23T09:10:11Z",
     "closed_at": null,
     "body": "How do you use this? Your example is in ES but many are still using JS...\r\n\r\nThis isn't helpful:\r\n\r\n    import {largestTriangleThreeBucket} from 'd3fc-sample';\r\n\r\n    // Create the sampler\r\n    const sampler = largestTriangleThreeBucket();"
   },
