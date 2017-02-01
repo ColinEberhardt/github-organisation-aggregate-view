@@ -1,5 +1,60 @@
 [
   {
+    "url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/68",
+    "repository_url": "https://api.github.com/repos/d3fc/d3fc-scripts",
+    "labels_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/68/labels{/name}",
+    "comments_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/68/comments",
+    "events_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/68/events",
+    "html_url": "https://github.com/d3fc/d3fc-scripts/pull/68",
+    "id": 204546710,
+    "number": 68,
+    "title": "Update command-line-args to version 4.0.1 🚀",
+    "user": {
+      "login": "greenkeeperio-bot",
+      "id": 14790466,
+      "avatar_url": "https://avatars.githubusercontent.com/u/14790466?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeperio-bot",
+      "html_url": "https://github.com/greenkeeperio-bot",
+      "followers_url": "https://api.github.com/users/greenkeeperio-bot/followers",
+      "following_url": "https://api.github.com/users/greenkeeperio-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeperio-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeperio-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeperio-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeperio-bot/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeperio-bot/repos",
+      "events_url": "https://api.github.com/users/greenkeeperio-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeperio-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 422808519,
+        "url": "https://api.github.com/repos/d3fc/d3fc-scripts/labels/greenkeeper",
+        "name": "greenkeeper",
+        "color": "ededed",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-02-01T10:29:36Z",
+    "updated_at": "2017-02-01T10:29:37Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/d3fc/d3fc-scripts/pulls/68",
+      "html_url": "https://github.com/d3fc/d3fc-scripts/pull/68",
+      "diff_url": "https://github.com/d3fc/d3fc-scripts/pull/68.diff",
+      "patch_url": "https://github.com/d3fc/d3fc-scripts/pull/68.patch"
+    },
+    "body": "Hello lovely humans,\n\n[command-line-args](https://www.npmjs.com/package/command-line-args) just published its new version 4.0.1.\n\n<table>\n  <tr>\n    <th align=left>\n      State\n    </th>\n    <td>\n      Update :rocket:\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Dependency\n    </td>\n    <td>\n      command-line-args\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      New version\n    </td>\n    <td>\n      4.0.1\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Type\n    </td>\n    <td>\n      dependency\n    </td>\n  </tr>\n</table>\n\nThis version is **not covered** by your **current version range**.\n\nWithout accepting this pull request your project will work just like it did before. There might be a bunch of new features, fixes and perf improvements that the maintainers worked on for you though.\n\nI recommend you look into these changes and try to get onto the latest version of command-line-args.\nGiven that you have a decent test suite, a passing build is a strong indicator that you can take advantage of these changes by merging the proposed change into your project. Otherwise this branch is a great starting point for you to work on the update.\n\n\nDo you have any ideas how I could improve these pull requests? Did I report anything you think isn’t right?\nAre you unsure about how things are supposed to work?\n\nThere is a collection of [frequently asked questions](https://greenkeeper.io/faq.html) and while I’m just a bot, there is a group of people who are happy to teach me new things. [Let them know](https://github.com/greenkeeperio/greenkeeper/issues/new).\n\nGood luck with your project :sparkles:\n\nYou rock!\n\n:palm_tree:\n\n---\nThe new version differs by 32 commits .\n\n- [`f9509e4`](https://github.com/75lb/command-line-args/commit/f9509e448ca1150022557d65f6a35efe9d89f091) <code>4.0.1</code>\n- [`d38dfbd`](https://github.com/75lb/command-line-args/commit/d38dfbd7dd0701591c7b275a2ce7811b0d152746) <code>docs</code>\n- [`4e40041`](https://github.com/75lb/command-line-args/commit/4e400410f39a33191a577800a890bb7bee68f3e4) <code>4.0.0</code>\n- [`266098b`](https://github.com/75lb/command-line-args/commit/266098b6735ce20659fa5fa570be2673759c5281) <code>4.0.0-1</code>\n- [`769b447`](https://github.com/75lb/command-line-args/commit/769b4470dca7a2d279b5b20921580f2e3b2086a4) <code>update examples</code>\n- [`c7a43d9`](https://github.com/75lb/command-line-args/commit/c7a43d9a74cf42dc7894b0f73eac2b4a0fd30b6c) <code>overhauled the examples</code>\n- [`8b98b9d`](https://github.com/75lb/command-line-args/commit/8b98b9da07187a9c1f973e023ed1003393d41150) <code>update validate example</code>\n- [`2d70566`](https://github.com/75lb/command-line-args/commit/2d705663e80f3f16b60975a55c70af3f498b90b6) <code>docs</code>\n- [`978dae2`](https://github.com/75lb/command-line-args/commit/978dae2f378e7ba7b014b2c3e78966b8fe78cbbc) <code>implemented partial parsing on grouped output</code>\n- [`1808f75`](https://github.com/75lb/command-line-args/commit/1808f755541b8adb10262b7893c931fe3cb69c48) <code>4.0.0-0</code>\n- [`279cc83`](https://github.com/75lb/command-line-args/commit/279cc83e9e49717860dbf5a27380116df3538e79) <code>for non-multiple defaultOptions, the first parsed value is now taken - not the last</code>\n- [`8f2ce47`](https://github.com/75lb/command-line-args/commit/8f2ce4723b218ae558d9cf6ca5a91be99777eba6) <code>method sig is now commandLineArgs(definitions, [options]). Added mocha and unknown-options examples.</code>\n- [`8549990`](https://github.com/75lb/command-line-args/commit/85499909e46a81609859a1d42a81692268c723c6) <code>implement 'partial' parse option.. initial tests</code>\n- [`e72101e`](https://github.com/75lb/command-line-args/commit/e72101e3c7443917cfa5c18f556533442764ecee) <code>refactored internals.. default option type is now 'String'.</code>\n- [`c343257`](https://github.com/75lb/command-line-args/commit/c343257bb5d4e6d7194851426d4904f4236aaf59) <code>Options with multiple:true set must always return an array. Fixed a case where that was not so (where a scalar defaultValue was supplied and no option values passed on the command line). Fixes #24</code>\n\n\nThere are 32 commits in total. See the [full diff](https://github.com/75lb/command-line-args/compare/142ca6d53bc4f81c4b0a1895f5a3374566db6a91...f9509e448ca1150022557d65f6a35efe9d89f091).\n\n---\n| ✨ Try the all new [Greenkeeper GitHub Integration](https://git.io/uptodate) ✨ |\n| --- |\n| With [Integrations](https://developer.github.com/early-access/integrations/) **first-class bot support** landed on GitHub and we’ve rewritten Greenkeeper to take full advantage of it. **Simpler setup, fewer pull-requests, faster than ever**.<br><br> <details><summary>Screencast</summary><img src=\"https://cloud.githubusercontent.com/assets/908178/19868156/20c1c0c4-9fa7-11e6-9f17-611c51677dbd.gif\" /></details><br> [**Try it today**](https://git.io/uptodate). Free for private repositories during beta. |"
+  },
+  {
     "url": "https://api.github.com/repos/d3fc/d3fc/issues/1055",
     "repository_url": "https://api.github.com/repos/d3fc/d3fc",
     "labels_url": "https://api.github.com/repos/d3fc/d3fc/issues/1055/labels{/name}",
