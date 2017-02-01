@@ -1,5 +1,60 @@
 [
   {
+    "url": "https://api.github.com/repos/d3fc/d3fc/issues/1055",
+    "repository_url": "https://api.github.com/repos/d3fc/d3fc",
+    "labels_url": "https://api.github.com/repos/d3fc/d3fc/issues/1055/labels{/name}",
+    "comments_url": "https://api.github.com/repos/d3fc/d3fc/issues/1055/comments",
+    "events_url": "https://api.github.com/repos/d3fc/d3fc/issues/1055/events",
+    "html_url": "https://github.com/d3fc/d3fc/pull/1055",
+    "id": 204491768,
+    "number": 1055,
+    "title": "Update node-sass to version 4.5.0 🚀",
+    "user": {
+      "login": "greenkeeperio-bot",
+      "id": 14790466,
+      "avatar_url": "https://avatars.githubusercontent.com/u/14790466?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeperio-bot",
+      "html_url": "https://github.com/greenkeeperio-bot",
+      "followers_url": "https://api.github.com/users/greenkeeperio-bot/followers",
+      "following_url": "https://api.github.com/users/greenkeeperio-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeperio-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeperio-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeperio-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeperio-bot/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeperio-bot/repos",
+      "events_url": "https://api.github.com/users/greenkeeperio-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeperio-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 498242509,
+        "url": "https://api.github.com/repos/d3fc/d3fc/labels/greenkeeper",
+        "name": "greenkeeper",
+        "color": "ededed",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-02-01T03:55:00Z",
+    "updated_at": "2017-02-01T03:55:00Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/d3fc/d3fc/pulls/1055",
+      "html_url": "https://github.com/d3fc/d3fc/pull/1055",
+      "diff_url": "https://github.com/d3fc/d3fc/pull/1055.diff",
+      "patch_url": "https://github.com/d3fc/d3fc/pull/1055.patch"
+    },
+    "body": "Hello lovely humans,\n\n[node-sass](https://www.npmjs.com/package/node-sass) just published its new version 4.5.0.\n\n<table>\n  <tr>\n    <th align=left>\n      State\n    </th>\n    <td>\n      Update :rocket:\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Dependency\n    </td>\n    <td>\n      node-sass\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      New version\n    </td>\n    <td>\n      4.5.0\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Type\n    </td>\n    <td>\n      devDependency\n    </td>\n  </tr>\n</table>\n\nThis version is **not covered** by your **current version range**.\n\nWithout accepting this pull request your project will work just like it did before. There might be a bunch of new features, fixes and perf improvements that the maintainers worked on for you though.\n\nI recommend you look into these changes and try to get onto the latest version of node-sass.\nGiven that you have a decent test suite, a passing build is a strong indicator that you can take advantage of these changes by merging the proposed change into your project. Otherwise this branch is a great starting point for you to work on the update.\n\n\nDo you have any ideas how I could improve these pull requests? Did I report anything you think isn’t right?\nAre you unsure about how things are supposed to work?\n\nThere is a collection of [frequently asked questions](https://greenkeeper.io/faq.html) and while I’m just a bot, there is a group of people who are happy to teach me new things. [Let them know](https://github.com/greenkeeperio/greenkeeper/issues/new).\n\nGood luck with your project :sparkles:\n\nYou rock!\n\n:palm_tree:\n\n---\n[GitHub Release](https://github.com/sass/node-sass/releases/tag/v4.5.0)\n\n<h2>Features</h2>\n\n<ul>\n<li>Build Windows binaries with Visual Studio 2015 for Node 6+ (<a href=\"https://urls.greenkeeper.io/am11\" class=\"user-mention\">@am11</a> <a href=\"https://urls.greenkeeper.io/xzyfer\" class=\"user-mention\">@xzyfer</a>, <a href=\"https://urls.greenkeeper.io/sass/node-sass/issues/1854\" class=\"issue-link js-issue-link\" data-url=\"https://github.com/sass/node-sass/issues/1854\" data-id=\"200036081\" data-error-text=\"Failed to load issue title\" data-permission-text=\"Issue title is private\">#1854</a>)</li>\n</ul>\n\n<h2>Fixes</h2>\n\n<ul>\n<li>Fix <code>includePaths</code> no longer containing <code>cwd</code> by default (<a href=\"https://urls.greenkeeper.io/xzyfer\" class=\"user-mention\">@xzyfer</a>, <a href=\"https://urls.greenkeeper.io/sass/node-sass/issues/1876\" class=\"issue-link js-issue-link\" data-url=\"https://github.com/sass/node-sass/issues/1876\" data-id=\"204041235\" data-error-text=\"Failed to load issue title\" data-permission-text=\"Issue title is private\">#1876</a>)</li>\n<li>Fix slow down in watcher responsiveness (<a href=\"https://urls.greenkeeper.io/xzyfer\" class=\"user-mention\">@xzyfer</a>, <a href=\"https://urls.greenkeeper.io/sass/node-sass/issues/1869\" class=\"issue-link js-issue-link\" data-url=\"https://github.com/sass/node-sass/issues/1869\" data-id=\"203300178\" data-error-text=\"Failed to load issue title\" data-permission-text=\"Issue title is private\">#1869</a>)</li>\n</ul>\n\n<hr>\n\n<h2>Supported Environments</h2>\n\n<table>\n<thead>\n<tr>\n<th>OS</th>\n<th>Architecture</th>\n<th>Node</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Windows</td>\n<td>x86 &amp; x64</td>\n<td>0.10, 0.12, 1, 2, 3, 4, 5, 6,7</td>\n</tr>\n<tr>\n<td>OSX</td>\n<td>x64</td>\n<td>0.10, 0.12, 1, 2, 3, 4, 5, 6, 7</td>\n</tr>\n<tr>\n<td>Linux*</td>\n<td>x86 &amp; x64</td>\n<td>0.10, 0.12, 1, 2, 3, 4, 5, 6, 7</td>\n</tr>\n<tr>\n<td>Alpine</td>\n<td>x64</td>\n<td>4, 6, 7</td>\n</tr>\n</tbody>\n</table>\n\n<p>*Linux support refers to Ubuntu, Debian, and CentOS 5</p>\n\n---\nThe new version differs by 44 commits .\n\n- [`cc7c3b3`](https://github.com/sass/node-sass/commit/cc7c3b37ba65fe5c7ebd0965c16e086abec57f3b) <code>4.5.0</code>\n- [`c048687`](https://github.com/sass/node-sass/commit/c048687bf5df536b298154a72939438ea7be0b58) <code>Merge pull request #1877 from xzyfer/preserve-cwd-include-path</code>\n- [`203f8d6`](https://github.com/sass/node-sass/commit/203f8d6627067b1004bad0599989c5849f72f6a0) <code>Mirror render and renderSync tests</code>\n- [`4310623`](https://github.com/sass/node-sass/commit/43106236cce7c78061fbd6a198269fc9d7beb782) <code>Restore behaviour of cwd in include path</code>\n- [`4271c70`](https://github.com/sass/node-sass/commit/4271c700133732a21863c4a8dee8bbcf7990037a) <code>Merge pull request #1874 from xzyfer/appveyor-release</code>\n- [`722e617`](https://github.com/sass/node-sass/commit/722e617e3006f26aac3664237fc27a56c4688caf) <code>Update AppVeyor release config</code>\n- [`3b02804`](https://github.com/sass/node-sass/commit/3b02804b0d553c5929a20ccade94a304d3f0d646) <code>Merge pull request #1873 from xzyfer/faster-watcher</code>\n- [`38fe5c6`](https://github.com/sass/node-sass/commit/38fe5c698700344fe76a4597fb1e484a18a3383c) <code>Make the watcher more responsive to child changes</code>\n- [`167812b`](https://github.com/sass/node-sass/commit/167812b6c197d216ed07d0f8e4757c2ecc3ba0a2) <code>Merge pull request #1870 from xzyfer/vs2015</code>\n- [`36de131`](https://github.com/sass/node-sass/commit/36de131209c5f87bfdb302e3addac796337350bc) <code>Use Visual Studio 2015 for Node 6+</code>\n- [`d628b10`](https://github.com/sass/node-sass/commit/d628b103f722f484bb60376a15cb441d48c60c40) <code>4.4.0</code>\n- [`323b193`](https://github.com/sass/node-sass/commit/323b193833d044c54e09121bb9a2f6c75e67574f) <code>Bump sass-spec for 3.5 features</code>\n- [`1f5eaff`](https://github.com/sass/node-sass/commit/1f5eaff36a7e06126df0902df681aa980250be55) <code>Merge pull request #1866 from xzyfer/bump-libsass</code>\n- [`1b9970a`](https://github.com/sass/node-sass/commit/1b9970a4278f36ba4ff88d41303c083a4cce5ac7) <code>Bump LibSass to 3.5.0.beta.2</code>\n- [`71a7a84`](https://github.com/sass/node-sass/commit/71a7a84ca58daaeba9fc4fc22621ebe00d756ff6) <code>4.3.0</code>\n\n\nThere are 44 commits in total. See the [full diff](https://github.com/sass/node-sass/compare/2e7f37084a1b30e93b142674cfed1fcd05c79e82...cc7c3b37ba65fe5c7ebd0965c16e086abec57f3b).\n\n---\n| ✨ Try the all new [Greenkeeper GitHub Integration](https://git.io/uptodate) ✨ |\n| --- |\n| With [Integrations](https://developer.github.com/early-access/integrations/) **first-class bot support** landed on GitHub and we’ve rewritten Greenkeeper to take full advantage of it. **Simpler setup, fewer pull-requests, faster than ever**.<br><br> <details><summary>Screencast</summary><img src=\"https://cloud.githubusercontent.com/assets/908178/19868156/20c1c0c4-9fa7-11e6-9f17-611c51677dbd.gif\" /></details><br> [**Try it today**](https://git.io/uptodate). Free for private repositories during beta. |"
+  },
+  {
     "url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/67",
     "repository_url": "https://api.github.com/repos/d3fc/d3fc-scripts",
     "labels_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/67/labels{/name}",
