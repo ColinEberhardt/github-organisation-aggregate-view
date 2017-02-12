@@ -1,5 +1,115 @@
 [
   {
+    "url": "https://api.github.com/repos/d3fc/d3fc/issues/1056",
+    "repository_url": "https://api.github.com/repos/d3fc/d3fc",
+    "labels_url": "https://api.github.com/repos/d3fc/d3fc/issues/1056/labels{/name}",
+    "comments_url": "https://api.github.com/repos/d3fc/d3fc/issues/1056/comments",
+    "events_url": "https://api.github.com/repos/d3fc/d3fc/issues/1056/events",
+    "html_url": "https://github.com/d3fc/d3fc/pull/1056",
+    "id": 207053772,
+    "number": 1056,
+    "title": "Update fs-promise to version 2.0.0 🚀",
+    "user": {
+      "login": "greenkeeperio-bot",
+      "id": 14790466,
+      "avatar_url": "https://avatars.githubusercontent.com/u/14790466?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeperio-bot",
+      "html_url": "https://github.com/greenkeeperio-bot",
+      "followers_url": "https://api.github.com/users/greenkeeperio-bot/followers",
+      "following_url": "https://api.github.com/users/greenkeeperio-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeperio-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeperio-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeperio-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeperio-bot/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeperio-bot/repos",
+      "events_url": "https://api.github.com/users/greenkeeperio-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeperio-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 498242509,
+        "url": "https://api.github.com/repos/d3fc/d3fc/labels/greenkeeper",
+        "name": "greenkeeper",
+        "color": "ededed",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-02-12T14:36:51Z",
+    "updated_at": "2017-02-12T14:36:52Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/d3fc/d3fc/pulls/1056",
+      "html_url": "https://github.com/d3fc/d3fc/pull/1056",
+      "diff_url": "https://github.com/d3fc/d3fc/pull/1056.diff",
+      "patch_url": "https://github.com/d3fc/d3fc/pull/1056.patch"
+    },
+    "body": "Hello lovely humans,\n\n[fs-promise](https://www.npmjs.com/package/fs-promise) just published its new version 2.0.0.\n\n<table>\n  <tr>\n    <th align=left>\n      State\n    </th>\n    <td>\n      Update :rocket:\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Dependency\n    </td>\n    <td>\n      fs-promise\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      New version\n    </td>\n    <td>\n      2.0.0\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Type\n    </td>\n    <td>\n      devDependency\n    </td>\n  </tr>\n</table>\n\nThis version is **not covered** by your **current version range**.\n\nWithout accepting this pull request your project will work just like it did before. There might be a bunch of new features, fixes and perf improvements that the maintainers worked on for you though.\n\nI recommend you look into these changes and try to get onto the latest version of fs-promise.\nGiven that you have a decent test suite, a passing build is a strong indicator that you can take advantage of these changes by merging the proposed change into your project. Otherwise this branch is a great starting point for you to work on the update.\n\n\nDo you have any ideas how I could improve these pull requests? Did I report anything you think isn’t right?\nAre you unsure about how things are supposed to work?\n\nThere is a collection of [frequently asked questions](https://greenkeeper.io/faq.html) and while I’m just a bot, there is a group of people who are happy to teach me new things. [Let them know](https://github.com/greenkeeperio/greenkeeper/issues/new).\n\nGood luck with your project :sparkles:\n\nYou rock!\n\n:palm_tree:\n\n---\nThe new version differs by 9 commits .\n\n- [`b327d35`](https://github.com/kevinbeaty/fs-promise/commit/b327d358976e92ddf82608de0489e342968bd068) <code>Version 2.0</code>\n- [`494658f`](https://github.com/kevinbeaty/fs-promise/commit/494658ff2781d69ef46cca6bce448f06667b882d) <code>Update .travis.yml (#20)</code>\n- [`f2bfa76`](https://github.com/kevinbeaty/fs-promise/commit/f2bfa76caa363af943f969bd34dfc59baedccfc6) <code>Merge pull request #18 from dcharbonnier/master</code>\n- [`40a412c`](https://github.com/kevinbeaty/fs-promise/commit/40a412cf710761bb080a5063e9383e3ba633d150) <code>EOF</code>\n- [`feff506`](https://github.com/kevinbeaty/fs-promise/commit/feff506c3194ab8df8abc7e9cf9dec7a209171a1) <code>missing EOF</code>\n- [`5eaeeda`](https://github.com/kevinbeaty/fs-promise/commit/5eaeedab4986c024247a34047be3c05cc2631d37) <code>add fs-extra definition</code>\n- [`1cd5808`](https://github.com/kevinbeaty/fs-promise/commit/1cd5808170de81170b9a3ae7f8a222b6085c13cc) <code>add types</code>\n- [`7247d96`](https://github.com/kevinbeaty/fs-promise/commit/7247d96f26e9423211fd021ff3a90b84644b982f) <code>walk removed on fs-exta 2</code>\n- [`3cf4b30`](https://github.com/kevinbeaty/fs-promise/commit/3cf4b305e3b4e36939e34036cfcf698ed4e3e657) <code>Upgrade packages</code>\n\nSee the [full diff](https://github.com/kevinbeaty/fs-promise/compare/a4465893a4ace58f1e8f9958706ac10df97d8953...b327d358976e92ddf82608de0489e342968bd068).\n\n---\n| ✨ Try the all new [Greenkeeper GitHub Integration](https://git.io/uptodate) ✨ |\n| --- |\n| With [Integrations](https://developer.github.com/early-access/integrations/) **first-class bot support** landed on GitHub and we’ve rewritten Greenkeeper to take full advantage of it. **Simpler setup, fewer pull-requests, faster than ever**.<br><br> <details><summary>Screencast</summary><img src=\"https://cloud.githubusercontent.com/assets/908178/19868156/20c1c0c4-9fa7-11e6-9f17-611c51677dbd.gif\" /></details><br> [**Try it today**](https://git.io/uptodate). Free for private repositories during beta. |"
+  },
+  {
+    "url": "https://api.github.com/repos/d3fc/d3fc-technical-indicator/issues/49",
+    "repository_url": "https://api.github.com/repos/d3fc/d3fc-technical-indicator",
+    "labels_url": "https://api.github.com/repos/d3fc/d3fc-technical-indicator/issues/49/labels{/name}",
+    "comments_url": "https://api.github.com/repos/d3fc/d3fc-technical-indicator/issues/49/comments",
+    "events_url": "https://api.github.com/repos/d3fc/d3fc-technical-indicator/issues/49/events",
+    "html_url": "https://github.com/d3fc/d3fc-technical-indicator/pull/49",
+    "id": 207053767,
+    "number": 49,
+    "title": "Update fs-promise to version 2.0.0 🚀",
+    "user": {
+      "login": "greenkeeperio-bot",
+      "id": 14790466,
+      "avatar_url": "https://avatars.githubusercontent.com/u/14790466?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeperio-bot",
+      "html_url": "https://github.com/greenkeeperio-bot",
+      "followers_url": "https://api.github.com/users/greenkeeperio-bot/followers",
+      "following_url": "https://api.github.com/users/greenkeeperio-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeperio-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeperio-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeperio-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeperio-bot/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeperio-bot/repos",
+      "events_url": "https://api.github.com/users/greenkeeperio-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeperio-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 408815063,
+        "url": "https://api.github.com/repos/d3fc/d3fc-technical-indicator/labels/greenkeeper",
+        "name": "greenkeeper",
+        "color": "ededed",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-02-12T14:36:48Z",
+    "updated_at": "2017-02-12T14:36:48Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/d3fc/d3fc-technical-indicator/pulls/49",
+      "html_url": "https://github.com/d3fc/d3fc-technical-indicator/pull/49",
+      "diff_url": "https://github.com/d3fc/d3fc-technical-indicator/pull/49.diff",
+      "patch_url": "https://github.com/d3fc/d3fc-technical-indicator/pull/49.patch"
+    },
+    "body": "Hello lovely humans,\n\n[fs-promise](https://www.npmjs.com/package/fs-promise) just published its new version 2.0.0.\n\n<table>\n  <tr>\n    <th align=left>\n      State\n    </th>\n    <td>\n      Update :rocket:\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Dependency\n    </td>\n    <td>\n      fs-promise\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      New version\n    </td>\n    <td>\n      2.0.0\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Type\n    </td>\n    <td>\n      devDependency\n    </td>\n  </tr>\n</table>\n\nThis version is **not covered** by your **current version range**.\n\nWithout accepting this pull request your project will work just like it did before. There might be a bunch of new features, fixes and perf improvements that the maintainers worked on for you though.\n\nI recommend you look into these changes and try to get onto the latest version of fs-promise.\nGiven that you have a decent test suite, a passing build is a strong indicator that you can take advantage of these changes by merging the proposed change into your project. Otherwise this branch is a great starting point for you to work on the update.\n\n\nDo you have any ideas how I could improve these pull requests? Did I report anything you think isn’t right?\nAre you unsure about how things are supposed to work?\n\nThere is a collection of [frequently asked questions](https://greenkeeper.io/faq.html) and while I’m just a bot, there is a group of people who are happy to teach me new things. [Let them know](https://github.com/greenkeeperio/greenkeeper/issues/new).\n\nGood luck with your project :sparkles:\n\nYou rock!\n\n:palm_tree:\n\n---\nThe new version differs by 9 commits .\n\n- [`b327d35`](https://github.com/kevinbeaty/fs-promise/commit/b327d358976e92ddf82608de0489e342968bd068) <code>Version 2.0</code>\n- [`494658f`](https://github.com/kevinbeaty/fs-promise/commit/494658ff2781d69ef46cca6bce448f06667b882d) <code>Update .travis.yml (#20)</code>\n- [`f2bfa76`](https://github.com/kevinbeaty/fs-promise/commit/f2bfa76caa363af943f969bd34dfc59baedccfc6) <code>Merge pull request #18 from dcharbonnier/master</code>\n- [`40a412c`](https://github.com/kevinbeaty/fs-promise/commit/40a412cf710761bb080a5063e9383e3ba633d150) <code>EOF</code>\n- [`feff506`](https://github.com/kevinbeaty/fs-promise/commit/feff506c3194ab8df8abc7e9cf9dec7a209171a1) <code>missing EOF</code>\n- [`5eaeeda`](https://github.com/kevinbeaty/fs-promise/commit/5eaeedab4986c024247a34047be3c05cc2631d37) <code>add fs-extra definition</code>\n- [`1cd5808`](https://github.com/kevinbeaty/fs-promise/commit/1cd5808170de81170b9a3ae7f8a222b6085c13cc) <code>add types</code>\n- [`7247d96`](https://github.com/kevinbeaty/fs-promise/commit/7247d96f26e9423211fd021ff3a90b84644b982f) <code>walk removed on fs-exta 2</code>\n- [`3cf4b30`](https://github.com/kevinbeaty/fs-promise/commit/3cf4b305e3b4e36939e34036cfcf698ed4e3e657) <code>Upgrade packages</code>\n\nSee the [full diff](https://github.com/kevinbeaty/fs-promise/compare/a4465893a4ace58f1e8f9958706ac10df97d8953...b327d358976e92ddf82608de0489e342968bd068).\n\n---\n| ✨ Try the all new [Greenkeeper GitHub Integration](https://git.io/uptodate) ✨ |\n| --- |\n| With [Integrations](https://developer.github.com/early-access/integrations/) **first-class bot support** landed on GitHub and we’ve rewritten Greenkeeper to take full advantage of it. **Simpler setup, fewer pull-requests, faster than ever**.<br><br> <details><summary>Screencast</summary><img src=\"https://cloud.githubusercontent.com/assets/908178/19868156/20c1c0c4-9fa7-11e6-9f17-611c51677dbd.gif\" /></details><br> [**Try it today**](https://git.io/uptodate). Free for private repositories during beta. |"
+  },
+  {
     "url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/69",
     "repository_url": "https://api.github.com/repos/d3fc/d3fc-scripts",
     "labels_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/69/labels{/name}",
