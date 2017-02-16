@@ -1,5 +1,60 @@
 [
   {
+    "url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/70",
+    "repository_url": "https://api.github.com/repos/d3fc/d3fc-scripts",
+    "labels_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/70/labels{/name}",
+    "comments_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/70/comments",
+    "events_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/70/events",
+    "html_url": "https://github.com/d3fc/d3fc-scripts/pull/70",
+    "id": 208038125,
+    "number": 70,
+    "title": "Update finalhandler to version 1.0.0 🚀",
+    "user": {
+      "login": "greenkeeperio-bot",
+      "id": 14790466,
+      "avatar_url": "https://avatars.githubusercontent.com/u/14790466?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeperio-bot",
+      "html_url": "https://github.com/greenkeeperio-bot",
+      "followers_url": "https://api.github.com/users/greenkeeperio-bot/followers",
+      "following_url": "https://api.github.com/users/greenkeeperio-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeperio-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeperio-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeperio-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeperio-bot/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeperio-bot/repos",
+      "events_url": "https://api.github.com/users/greenkeeperio-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeperio-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 422808519,
+        "url": "https://api.github.com/repos/d3fc/d3fc-scripts/labels/greenkeeper",
+        "name": "greenkeeper",
+        "color": "ededed",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-02-16T07:11:18Z",
+    "updated_at": "2017-02-16T07:11:18Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/d3fc/d3fc-scripts/pulls/70",
+      "html_url": "https://github.com/d3fc/d3fc-scripts/pull/70",
+      "diff_url": "https://github.com/d3fc/d3fc-scripts/pull/70.diff",
+      "patch_url": "https://github.com/d3fc/d3fc-scripts/pull/70.patch"
+    },
+    "body": "Hello lovely humans,\n\n[finalhandler](https://www.npmjs.com/package/finalhandler) just published its new version 1.0.0.\n\n<table>\n  <tr>\n    <th align=left>\n      State\n    </th>\n    <td>\n      Update :rocket:\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Dependency\n    </td>\n    <td>\n      finalhandler\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      New version\n    </td>\n    <td>\n      1.0.0\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Type\n    </td>\n    <td>\n      dependency\n    </td>\n  </tr>\n</table>\n\nThis version is **not covered** by your **current version range**.\n\nWithout accepting this pull request your project will work just like it did before. There might be a bunch of new features, fixes and perf improvements that the maintainers worked on for you though.\n\nI recommend you look into these changes and try to get onto the latest version of finalhandler.\nGiven that you have a decent test suite, a passing build is a strong indicator that you can take advantage of these changes by merging the proposed change into your project. Otherwise this branch is a great starting point for you to work on the update.\n\n\nDo you have any ideas how I could improve these pull requests? Did I report anything you think isn’t right?\nAre you unsure about how things are supposed to work?\n\nThere is a collection of [frequently asked questions](https://greenkeeper.io/faq.html) and while I’m just a bot, there is a group of people who are happy to teach me new things. [Let them know](https://github.com/greenkeeperio/greenkeeper/issues/new).\n\nGood luck with your project :sparkles:\n\nYou rock!\n\n:palm_tree:\n\n---\n[GitHub Release](https://github.com/pillarjs/finalhandler/releases/tag/v1.0.0)\n\n<ul>\n<li>Fix exception when <code>err</code> cannot be converted to a string</li>\n<li>Fully URL-encode the pathname in the 404 message</li>\n<li>Only include the pathname in the 404 message</li>\n<li>Send complete HTML document</li>\n<li>Set <code>Content-Security-Policy: default-src 'self'</code> header</li>\n<li>deps: debug@2.6.1\n\n<ul>\n<li>Allow colors in workers</li>\n<li>Deprecated <code>DEBUG_FD</code> environment variable set to <code>3</code> or higher</li>\n<li>Fix error when running under React Native</li>\n<li>Use same color for same namespace</li>\n<li>deps: ms@0.7.2</li>\n</ul>\n</li>\n</ul>\n\n---\nThe new version differs by 41 commits .\n\n- [`6e024b1`](https://github.com/pillarjs/finalhandler/commit/6e024b1139202f69a537884ea755a0bf1bb72d69) <code>1.0.0</code>\n- [`152c6fa`](https://github.com/pillarjs/finalhandler/commit/152c6fa73b5068a7d2c6a90ccc03973dae2192bb) <code>docs: update copyright year</code>\n- [`63425d0`](https://github.com/pillarjs/finalhandler/commit/63425d0122cfaf8e9a0878fa081a4b2cd8455d87) <code>Set Content-Security-Policy: default-src 'self' header</code>\n- [`7aa2d9c`](https://github.com/pillarjs/finalhandler/commit/7aa2d9c50c02456a40d64ee6a5edb8df452d1747) <code>Send complete HTML document</code>\n- [`4ba8fc8`](https://github.com/pillarjs/finalhandler/commit/4ba8fc89a8a058f7b11d08640ff083c31211c5ef) <code>deps: debug@2.6.1</code>\n- [`2f5981b`](https://github.com/pillarjs/finalhandler/commit/2f5981b331ac6ecab5f782c5a9e304a7bbeef3ee) <code>Fix exception when err cannot be converted to a string</code>\n- [`113d8eb`](https://github.com/pillarjs/finalhandler/commit/113d8eb9037f8d69528f62e1a54baf24921a6f5e) <code>build: Node.js@7.5</code>\n- [`64b9b76`](https://github.com/pillarjs/finalhandler/commit/64b9b76daddd1ab739a8bbfd560249c638e22f34) <code>build: eslint@3.15.0</code>\n- [`7043491`](https://github.com/pillarjs/finalhandler/commit/70434913800b273f3f36df42cad953563bb901cb) <code>tests: add test for non-error status codes in error objects</code>\n- [`812de98`](https://github.com/pillarjs/finalhandler/commit/812de985d6bbde5e96509d70965c3bfbafb76d94) <code>tests: add test for non-numeric err.statusCode value</code>\n- [`3fe2b5e`](https://github.com/pillarjs/finalhandler/commit/3fe2b5e4480b3eb67f6eef1da3797e2f8039d7e2) <code>Fully URL-encode the pathname in the 404 message</code>\n- [`4dd6501`](https://github.com/pillarjs/finalhandler/commit/4dd65012507f42bfb99d8249ad22e4d8e5e41136) <code>Only include the pathname in the 404 message</code>\n- [`1eeee50`](https://github.com/pillarjs/finalhandler/commit/1eeee50f82c169fd4e75a4ed67a9085570a4b4af) <code>tests: add test for 404 original URL</code>\n- [`c8788c5`](https://github.com/pillarjs/finalhandler/commit/c8788c557f41440246cb48b0ce149b08e755daa8) <code>tests: add test for 404 path escaping</code>\n- [`aaa5b90`](https://github.com/pillarjs/finalhandler/commit/aaa5b904f6ebf965435c888b491a3722c89dc035) <code>tests: pull out test utils into support dir</code>\n\n\nThere are 41 commits in total. See the [full diff](https://github.com/pillarjs/finalhandler/compare/15cc543eb87dd0e2f29e931d86816a6eb348c573...6e024b1139202f69a537884ea755a0bf1bb72d69).\n\n---\n| ✨ Try the all new [Greenkeeper GitHub Integration](https://git.io/uptodate) ✨ |\n| --- |\n| With [Integrations](https://developer.github.com/early-access/integrations/) **first-class bot support** landed on GitHub and we’ve rewritten Greenkeeper to take full advantage of it. **Simpler setup, fewer pull-requests, faster than ever**.<br><br> <details><summary>Screencast</summary><img src=\"https://cloud.githubusercontent.com/assets/908178/19868156/20c1c0c4-9fa7-11e6-9f17-611c51677dbd.gif\" /></details><br> [**Try it today**](https://git.io/uptodate). Free for private repositories during beta. |"
+  },
+  {
     "url": "https://api.github.com/repos/d3fc/d3fc-sample/issues/38",
     "repository_url": "https://api.github.com/repos/d3fc/d3fc-sample",
     "labels_url": "https://api.github.com/repos/d3fc/d3fc-sample/issues/38/labels{/name}",
