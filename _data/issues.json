@@ -1,5 +1,60 @@
 [
   {
+    "url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/71",
+    "repository_url": "https://api.github.com/repos/d3fc/d3fc-scripts",
+    "labels_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/71/labels{/name}",
+    "comments_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/71/comments",
+    "events_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/71/events",
+    "html_url": "https://github.com/d3fc/d3fc-scripts/pull/71",
+    "id": 208625140,
+    "number": 71,
+    "title": "Update eol to version 0.7.0 🚀",
+    "user": {
+      "login": "greenkeeperio-bot",
+      "id": 14790466,
+      "avatar_url": "https://avatars.githubusercontent.com/u/14790466?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/greenkeeperio-bot",
+      "html_url": "https://github.com/greenkeeperio-bot",
+      "followers_url": "https://api.github.com/users/greenkeeperio-bot/followers",
+      "following_url": "https://api.github.com/users/greenkeeperio-bot/following{/other_user}",
+      "gists_url": "https://api.github.com/users/greenkeeperio-bot/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/greenkeeperio-bot/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/greenkeeperio-bot/subscriptions",
+      "organizations_url": "https://api.github.com/users/greenkeeperio-bot/orgs",
+      "repos_url": "https://api.github.com/users/greenkeeperio-bot/repos",
+      "events_url": "https://api.github.com/users/greenkeeperio-bot/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/greenkeeperio-bot/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [
+      {
+        "id": 422808519,
+        "url": "https://api.github.com/repos/d3fc/d3fc-scripts/labels/greenkeeper",
+        "name": "greenkeeper",
+        "color": "ededed",
+        "default": false
+      }
+    ],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-02-18T08:36:06Z",
+    "updated_at": "2017-02-18T08:36:06Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/d3fc/d3fc-scripts/pulls/71",
+      "html_url": "https://github.com/d3fc/d3fc-scripts/pull/71",
+      "diff_url": "https://github.com/d3fc/d3fc-scripts/pull/71.diff",
+      "patch_url": "https://github.com/d3fc/d3fc-scripts/pull/71.patch"
+    },
+    "body": "Hello lovely humans,\n\n[eol](https://www.npmjs.com/package/eol) just published its new version 0.7.0.\n\n<table>\n  <tr>\n    <th align=left>\n      State\n    </th>\n    <td>\n      Update :rocket:\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Dependency\n    </td>\n    <td>\n      eol\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      New version\n    </td>\n    <td>\n      0.7.0\n    </td>\n  </tr>\n  <tr>\n    <th align=left>\n      Type\n    </td>\n    <td>\n      dependency\n    </td>\n  </tr>\n</table>\n\nThis version is **not covered** by your **current version range**.\n\nWithout accepting this pull request your project will work just like it did before. There might be a bunch of new features, fixes and perf improvements that the maintainers worked on for you though.\n\nI recommend you look into these changes and try to get onto the latest version of eol.\nGiven that you have a decent test suite, a passing build is a strong indicator that you can take advantage of these changes by merging the proposed change into your project. Otherwise this branch is a great starting point for you to work on the update.\n\n\nDo you have any ideas how I could improve these pull requests? Did I report anything you think isn’t right?\nAre you unsure about how things are supposed to work?\n\nThere is a collection of [frequently asked questions](https://greenkeeper.io/faq.html) and while I’m just a bot, there is a group of people who are happy to teach me new things. [Let them know](https://github.com/greenkeeperio/greenkeeper/issues/new).\n\nGood luck with your project :sparkles:\n\nYou rock!\n\n:palm_tree:\n\n---\nThe new version differs by 13 commits .\n\n- [`9950b99`](https://github.com/ryanve/eol/commit/9950b994bfcbc9c397c5e0351ad4bd4c72f23b9d) <code>0.7.0</code>\n- [`5dbc293`](https://github.com/ryanve/eol/commit/5dbc2933099466589e08223b0f948da4bdc6fb83) <code>Add eol.split method (#6)</code>\n- [`f444a74`](https://github.com/ryanve/eol/commit/f444a74e0a7637ac749c4009e3e3495a692f5c6f) <code>0.6.0</code>\n- [`e13a4bf`](https://github.com/ryanve/eol/commit/e13a4bfbdd7c6716b32d0e398f33682272cdba59) <code>keywords</code>\n- [`5663bc1`](https://github.com/ryanve/eol/commit/5663bc10974a75d240e6bde6815b1c5506e1fac6) <code>Rename index.d.ts to eol.d.ts</code>\n- [`a605564`](https://github.com/ryanve/eol/commit/a605564df288c115fee6e87068ded77a13746582) <code>Conform to 2-space indentation</code>\n- [`874367e`](https://github.com/ryanve/eol/commit/874367ee3773a5395d62900157257b8b9e73f01b) <code>Add Typescript type definitions (#5)</code>\n- [`ab8db41`](https://github.com/ryanve/eol/commit/ab8db41582bebf8897b609b2db84fd9bc122f950) <code>0.5.1</code>\n- [`3d24496`](https://github.com/ryanve/eol/commit/3d24496feaf9959d53c180f8b0199da9603262a9) <code>uppercase types</code>\n- [`53a235c`](https://github.com/ryanve/eol/commit/53a235c6cc0d09fb0c4bb230fe6e37a74b5071db) <code>focus style</code>\n- [`920a4d8`](https://github.com/ryanve/eol/commit/920a4d8217e60a73b60e3be95f778383f3bd56ce) <code>tweak colors</code>\n- [`5a0c34a`](https://github.com/ryanve/eol/commit/5a0c34a4d3756790a40cad469355aa745ba4ffab) <code>normalize output whitespace to be like textarea</code>\n- [`138f056`](https://github.com/ryanve/eol/commit/138f056145e691190fecc88f2858d575dd3df0ff) <code>0.5.0: Add online eol converter</code>\n\nSee the [full diff](https://github.com/ryanve/eol/compare/66ffd486919f0201972d44682cdd1e1af90a2710...9950b994bfcbc9c397c5e0351ad4bd4c72f23b9d).\n\n---\n| ✨ Try the all new [Greenkeeper GitHub Integration](https://git.io/uptodate) ✨ |\n| --- |\n| With [Integrations](https://developer.github.com/early-access/integrations/) **first-class bot support** landed on GitHub and we’ve rewritten Greenkeeper to take full advantage of it. **Simpler setup, fewer pull-requests, faster than ever**.<br><br> <details><summary>Screencast</summary><img src=\"https://cloud.githubusercontent.com/assets/908178/19868156/20c1c0c4-9fa7-11e6-9f17-611c51677dbd.gif\" /></details><br> [**Try it today**](https://git.io/uptodate). Free for private repositories during beta. |"
+  },
+  {
     "url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/70",
     "repository_url": "https://api.github.com/repos/d3fc/d3fc-scripts",
     "labels_url": "https://api.github.com/repos/d3fc/d3fc-scripts/issues/70/labels{/name}",
