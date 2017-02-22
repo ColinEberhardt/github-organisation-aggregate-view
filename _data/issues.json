@@ -1,5 +1,52 @@
 [
   {
+    "url": "https://api.github.com/repos/d3fc/d3fc-chart/issues/19",
+    "repository_url": "https://api.github.com/repos/d3fc/d3fc-chart",
+    "labels_url": "https://api.github.com/repos/d3fc/d3fc-chart/issues/19/labels{/name}",
+    "comments_url": "https://api.github.com/repos/d3fc/d3fc-chart/issues/19/comments",
+    "events_url": "https://api.github.com/repos/d3fc/d3fc-chart/issues/19/events",
+    "html_url": "https://github.com/d3fc/d3fc-chart/pull/19",
+    "id": 209373775,
+    "number": 19,
+    "title": "feat: labels are now functors",
+    "user": {
+      "login": "ColinEberhardt",
+      "id": 1098110,
+      "avatar_url": "https://avatars.githubusercontent.com/u/1098110?v=3",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ColinEberhardt",
+      "html_url": "https://github.com/ColinEberhardt",
+      "followers_url": "https://api.github.com/users/ColinEberhardt/followers",
+      "following_url": "https://api.github.com/users/ColinEberhardt/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ColinEberhardt/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ColinEberhardt/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ColinEberhardt/subscriptions",
+      "organizations_url": "https://api.github.com/users/ColinEberhardt/orgs",
+      "repos_url": "https://api.github.com/users/ColinEberhardt/repos",
+      "events_url": "https://api.github.com/users/ColinEberhardt/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ColinEberhardt/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "labels": [],
+    "state": "open",
+    "locked": false,
+    "assignee": null,
+    "assignees": [],
+    "milestone": null,
+    "comments": 0,
+    "created_at": "2017-02-22T07:31:08Z",
+    "updated_at": "2017-02-22T07:31:08Z",
+    "closed_at": null,
+    "pull_request": {
+      "url": "https://api.github.com/repos/d3fc/d3fc-chart/pulls/19",
+      "html_url": "https://github.com/d3fc/d3fc-chart/pull/19",
+      "diff_url": "https://github.com/d3fc/d3fc-chart/pull/19.diff",
+      "patch_url": "https://github.com/d3fc/d3fc-chart/pull/19.patch"
+    },
+    "body": "I've been using this component to render small multiples, which works quite nicely. Having the labels as functors would allow them to be varies for each multiple."
+  },
+  {
     "url": "https://api.github.com/repos/d3fc/d3fc-series/issues/42",
     "repository_url": "https://api.github.com/repos/d3fc/d3fc-series",
     "labels_url": "https://api.github.com/repos/d3fc/d3fc-series/issues/42/labels{/name}",
@@ -34,9 +81,9 @@
     "assignee": null,
     "assignees": [],
     "milestone": null,
-    "comments": 0,
+    "comments": 1,
     "created_at": "2017-02-21T16:10:47Z",
-    "updated_at": "2017-02-21T18:07:00Z",
+    "updated_at": "2017-02-22T08:01:26Z",
     "closed_at": null,
     "pull_request": {
       "url": "https://api.github.com/repos/d3fc/d3fc-series/pulls/42",
@@ -44,7 +91,7 @@
       "diff_url": "https://github.com/d3fc/d3fc-series/pull/42.diff",
       "patch_url": "https://github.com/d3fc/d3fc-series/pull/42.patch"
     },
-    "body": "see #41 \r\n\r\n@chrisprice would be good to get a bit of feedback on the implementation. I'll update the docs in a bit."
+    "body": "resolves #41 \r\n\r\n@chrisprice would be good to get a bit of feedback on the implementation. I'll update the docs in a bit."
   },
   {
     "url": "https://api.github.com/repos/d3fc/d3fc-annotation/issues/28",
